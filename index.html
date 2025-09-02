@@ -60,6 +60,11 @@
                             <p>Step into the world of Mobispins, where the reels never sleep and the jackpots hit harder
                                 than ever. Packed with thrilling slot machines, classic table games, and nonstop action,
                                 Mobispins is the new boss of social casinos.</p>
+                            <div class="bnr-btn">
+                                <button class=" m-2" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                                <button class=" m-2" data-bs-toggle="modal" data-bs-target="#registerModal">Sign up
+                                </button>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -163,7 +168,6 @@
         </div>
     </div>
     <!-- Spin With the Mobispins -->
-
 
     <!-- Earn Your Stripes Section -->
     <section class="earn-stripes ">
@@ -281,8 +285,6 @@
     </section>
     <!-- secure -->
 
-
-
     <section class="newsletter-section">
         <div class="container">
             <div class="newsletter-content">
@@ -293,7 +295,6 @@
             </div>
         </div>
     </section>
-
 
 
     <!-- footer -->
@@ -364,8 +365,59 @@
     <!-- footer -->
 
 
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered"> <!-- Centered -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="loginEmail" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="loginEmail" placeholder="Enter email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="loginPassword" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="loginPassword" placeholder="Password">
+                        </div>
+                        <button type="button" class="w-100 btn-cst">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
-
+    <!-- Register Modal -->
+    <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered"> <!-- Centered -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="registerModalLabel">Register</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="regName" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="regName" placeholder="Enter full name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="regEmail" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="regEmail" placeholder="Enter email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="regPassword" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="regPassword" placeholder="Password">
+                        </div>
+                        <button type="button" class="w-100 btn-cst">sign up </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/custom.js"></script>

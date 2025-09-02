@@ -674,3 +674,27 @@ ul.list-unstyled li a:hover {
     background: #1698BB;
     border-radius: 9px;
 }
+
+.bnr-btn button,
+.btn-cst {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #1698BB;
+    color: #FAFAFA;
+    display: inline-flex;
+    justify-content: center;
+    font-size: clamp(14px, 0.938vw, 22px);
+    font-family: "Saira", sans-serif;
+    font-weight: 500;
+    line-height: 120%;
+    padding: clamp(10px, 0.625vw, 24px) clamp(20px, 1.667vw, 48px);
+    text-decoration: none;
+    border-radius: 0;
+    cursor: pointer;
+    background: #1698BB;
+    border-radius: 9px;
+}
+
+.games-cst .section__heading {
+    text-align: center;
+}
