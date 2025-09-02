@@ -404,6 +404,11 @@ span.menu-close {
     border-radius: 9px;
 }
 
+.newsletter-content a:hover {
+    background-color: #0B1D3A;
+    border: 1px solid #0B1D3A;
+}
+
 footer.footer {
     padding: 60px 0 0;
     background-color: #0B1D3A;
@@ -681,6 +686,11 @@ ul.list-unstyled li a:hover {
     border-radius: 9px;
 }
 
+.submit input:hover {
+    background-color: #0B1D3A;
+    border: 1px solid #0B1D3A;
+}
+
 .bnr-btn button,
 .btn-cst {
     position: relative;
@@ -699,6 +709,12 @@ ul.list-unstyled li a:hover {
     cursor: pointer;
     background: #007D8C;
     border-radius: 9px;
+}
+
+.bnr-btn button:hover,
+.btn-cst:hover {
+    background-color: #0B1D3A;
+    border: 1px solid #0B1D3A;
 }
 
 .games-cst .section__heading {
