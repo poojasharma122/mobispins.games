@@ -12,9 +12,7 @@ img {
     width: 100%;
 }
 
-body {
-    background-color: #000;
-}
+
 
 h1,
 h2,
@@ -42,7 +40,7 @@ header {
     transition: all 0.3s ease;
     padding: 1.5rem 2rem;
     width: 100%;
-    background-color: #000000;
+    background-color: #0B1D3A;
 }
 
 .logo img {
@@ -95,11 +93,11 @@ header.is-sticky {
 }
 
 .menu-list ul li a.active {
-    color: #1698BB;
+    color: #007D8C;
 }
 
 .menu-list ul li a:hover {
-    color: #1698BB;
+    color: #007D8C;
 }
 
 .main-content {
@@ -138,7 +136,8 @@ span.menu-close {
 /* Banner css */
 .hero-bnr {
     padding: 60px 0;
-    background-color: #243238;
+    background: linear-gradient(180deg, #0B1D3A 0%, #007D8C 100%);
+
 }
 
 .bnr-inr .row {
@@ -181,7 +180,7 @@ span.menu-close {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 20px;
-    color: #fff;
+    color: #000;
 }
 
 .section__heading {
@@ -191,7 +190,7 @@ span.menu-close {
 .section__heading ul li {
     font-size: 20px;
     line-height: 30px;
-    color: #fff;
+    color: #000;
     font-weight: 400;
     list-style: none;
     padding-left: 30px;
@@ -206,7 +205,7 @@ span.menu-close {
     top: 12px;
     width: 8px;
     height: 8px;
-    background-color: #fff;
+    background-color: #007D8C;
     border-radius: 50%;
 }
 
@@ -224,7 +223,7 @@ span.menu-close {
 /*  */
 .earn-stripes {
     padding: 60px 0;
-    background-color: #243238;
+    background: linear-gradient(180deg, #0B1D3A 0%, #007D8C 100%);
 }
 
 .bonuses {
@@ -245,7 +244,7 @@ span.menu-close {
 }
 
 .bonus-card {
-    background: #fff;
+    background: #0B1D3A;
     backdrop-filter: blur(30px);
     padding: clamp(12px, 1.25vw, 40px);
     text-align: center;
@@ -263,11 +262,13 @@ span.menu-close {
     font-weight: 600;
     font-size: 1.25rem;
     margin-bottom: 10px;
+    color: #fff;
 }
 
 .bonus-card p {
     font-size: 1rem;
     opacity: 0.9;
+    color: #fff;
 }
 
 .section-title {
@@ -313,12 +314,13 @@ span.menu-close {
 .bigger-text h2 {
     font-size: 40px;
     font-weight: 700;
-    color: #fff;
+    color: #000;
 }
 
 .play-anywhere {
     padding: 60px 0;
-    background-color: #243238;
+    background: linear-gradient(180deg, #0B1D3A 0%, #007D8C 100%);
+
 }
 
 .play-anywhere-content h2 {
@@ -346,7 +348,7 @@ span.menu-close {
 .secure ul li {
     font-size: 20px;
     line-height: 30px;
-    color: #fff;
+    color: #000;
     font-weight: 400;
 
 }
@@ -354,14 +356,14 @@ span.menu-close {
 .secure-text h2 {
     font-size: 40px;
     font-weight: 700;
-    color: #fff;
+    color: #000;
     margin-bottom: 20px;
 }
 
 .secure-text p {
     font-size: 20px;
     line-height: 30px;
-    color: #fff;
+    color: #000;
     font-weight: 400;
     width: 100%;
     max-width: 500px;
@@ -370,7 +372,7 @@ span.menu-close {
 
 .newsletter-section {
     padding: 60px 0;
-    background-color: #243238;
+    background: linear-gradient(180deg, #0B1D3A 0%, #007D8C 100%);
 }
 
 .newsletter-content {
@@ -386,7 +388,7 @@ span.menu-close {
 .newsletter-content a {
     position: relative;
     overflow: hidden;
-    border: 1px solid #1698BB;
+    border: 1px solid#007D8C;
     color: #FAFAFA;
     display: inline-flex;
     justify-content: center;
@@ -398,12 +400,13 @@ span.menu-close {
     text-decoration: none;
     border-radius: 0;
     cursor: pointer;
-    background: #1698BB;
+    background: #007D8C;
     border-radius: 9px;
 }
 
 footer.footer {
     padding: 60px 0 0;
+    background-color: #0B1D3A;
 
 }
 
@@ -435,7 +438,7 @@ ul.list-unstyled li a {
 }
 
 ul.list-unstyled li a:hover {
-    color: #1698BB;
+    color: #007D8C;
     transform: translateX(6px);
 }
 
@@ -451,9 +454,9 @@ ul.list-unstyled li a:hover {
 }
 
 .footer-widget.social a:hover {
-    background-color: #1698BB;
+    background-color: #007D8C;
     color: #fff;
-    border: 1px solid #1698BB;
+    border: 1px solid#007D8C;
 }
 
 .bottom-line {
@@ -475,7 +478,7 @@ ul.list-unstyled li a:hover {
 }
 
 .bottom-line p a {
-    color: #1698BB;
+    color: #007D8C;
 }
 
 .footer_SSlLink {
@@ -535,14 +538,15 @@ ul.list-unstyled li a:hover {
 
 .terms-content {
     padding: 60px 0;
-    background-color: #243238;
+       background: linear-gradient(180deg, #0B1D3A 0%, #007D8C 100%);
+
 }
 
 .content-terms h4 {
     font-size: 22px;
     margin-bottom: 0.9375rem;
     line-height: 1.4;
-    color: #1698BB;
+    color: #007D8C;
     font-weight: 700;
 }
 
@@ -569,7 +573,7 @@ ul.list-unstyled li a:hover {
     top: 10px;
     width: 8px;
     height: 8px;
-    background-color: #1698BB;
+    background-color: #007D8C;
     border-radius: 50%;
 }
 
@@ -581,11 +585,11 @@ ul.list-unstyled li a:hover {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 20px;
-    color: #fff;
+    color: #000;
 }
 
 .about-mobispins-text p {
-    color: #fff;
+    color: #000;
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 10px;
@@ -610,7 +614,8 @@ ul.list-unstyled li a:hover {
 }
 
 .about-sec {
-    padding: 0 0 60px 0;
+    padding: 60px 0 60px 0;
+    background-color: #0B1D3A;
 }
 
 .about-sec h2 {
@@ -638,6 +643,7 @@ ul.list-unstyled li a:hover {
     background-color: #fff;
     padding: 1.875rem;
     margin-top: -7rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .input_wrapper input,
@@ -659,7 +665,7 @@ ul.list-unstyled li a:hover {
 .submit input {
     position: relative;
     overflow: hidden;
-    border: 1px solid #1698BB;
+    border: 1px solid#007D8C;
     color: #FAFAFA;
     display: inline-flex;
     justify-content: center;
@@ -671,7 +677,7 @@ ul.list-unstyled li a:hover {
     text-decoration: none;
     border-radius: 0;
     cursor: pointer;
-    background: #1698BB;
+    background: #007D8C;
     border-radius: 9px;
 }
 
@@ -679,7 +685,7 @@ ul.list-unstyled li a:hover {
 .btn-cst {
     position: relative;
     overflow: hidden;
-    border: 1px solid #1698BB;
+    border: 1px solid#007D8C;
     color: #FAFAFA;
     display: inline-flex;
     justify-content: center;
@@ -691,7 +697,7 @@ ul.list-unstyled li a:hover {
     text-decoration: none;
     border-radius: 0;
     cursor: pointer;
-    background: #1698BB;
+    background: #007D8C;
     border-radius: 9px;
 }
 
