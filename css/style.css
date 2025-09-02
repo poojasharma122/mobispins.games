@@ -550,7 +550,7 @@ ul.list-unstyled li a:hover {
     inset: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0 0 0 / 60%);
+    background-color: #0000005c;
     z-index: -1;
 }
 
