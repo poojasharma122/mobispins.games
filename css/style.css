@@ -758,8 +758,10 @@ ul.list-unstyled li a:hover {
 }
 
 .gaware {
-    text-align: center;
     margin-top: 50px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .gaware img {
