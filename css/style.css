@@ -180,7 +180,7 @@ span.menu-close {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 20px;
-    color: #000;
+    color: #007D8C;
 }
 
 .section__heading {
@@ -314,7 +314,7 @@ span.menu-close {
 .bigger-text h2 {
     font-size: 40px;
     font-weight: 700;
-    color: #000;
+    color: #007D8C;
 }
 
 .play-anywhere {
@@ -356,8 +356,22 @@ span.menu-close {
 .secure-text h2 {
     font-size: 40px;
     font-weight: 700;
-    color: #000;
+    color: #007D8C;
     margin-bottom: 20px;
+}
+
+.newsletter-content h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #007D8C;
+    margin-bottom: 20px;
+}
+
+.newsletter-content p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #000;
+    font-weight: 400;
 }
 
 .secure-text p {
@@ -590,7 +604,7 @@ ul.list-unstyled li a:hover {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 20px;
-    color: #000;
+    color: #007D8C;
 }
 
 .about-mobispins-text p {
@@ -655,12 +669,14 @@ ul.list-unstyled li a:hover {
 .input_wrapper textarea {
     background-color: #fff;
     border-radius: 10px;
-    color: #000;
-    font-size: 1rem;
     padding: 14px;
     width: 100%;
     outline: none;
     border: 1px solid #000;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000;
+    font-weight: 400;
 }
 
 .input_wrapper {
@@ -723,4 +739,19 @@ ul.list-unstyled li a:hover {
 
 .footer-content img {
     max-width: 200px;
+}
+
+.contact-us-innr h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #007D8C;
+}
+
+.contact-us-innr p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #000;
+    font-weight: 400;
+    margin-bottom: 30px;
 }

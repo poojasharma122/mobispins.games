@@ -23,6 +23,15 @@
 
     }
 
+    .contact-us-innr h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .newsletter-content h2 {
+        font-size: 28px;
+    }
+
     .section-title {
         font-size: 28px;
 
@@ -42,6 +51,15 @@
 
     ul.list-unstyled li a {
         font-size: 16px;
+    }
+
+    .about-mobispins-text h3 {
+        font-size: 28px;
+
+    }
+
+    .about-sec h2 {
+        font-size: 28px;
     }
 }
 
@@ -101,6 +119,10 @@
     .bottom-ft {
         flex-direction: column;
         gap: 10px;
+    }
+
+    .about-grid .row .col-lg-4 {
+        margin-bottom: 30px;
     }
 }
 
