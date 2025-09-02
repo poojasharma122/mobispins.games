@@ -124,6 +124,23 @@
     .about-grid .row .col-lg-4 {
         margin-bottom: 30px;
     }
+
+    .inner-bnr {
+        height: 400px;
+
+    }
+
+    .about-mobispins-inner .row {
+        flex-direction: column-reverse;
+    }
+
+    .about-mobispins-text {
+        margin-top: 30px;
+    }
+
+    .about-mobispins {
+        padding: 40px 0;
+    }
 }
 
 @media (max-width: 767px) {
