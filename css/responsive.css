@@ -1,3 +1,50 @@
+@media (max-width: 1199px) {
+    .bnr-content h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    p {
+        font-size: 16px !important;
+    }
+
+    .section__heading h2 {
+        font-size: 28px;
+    }
+
+    .section__heading ul li {
+        font-size: 16px;
+        line-height: 28px;
+
+    }
+
+    .earn-stripes ul li {
+        font-size: 16px;
+
+    }
+
+    .section-title {
+        font-size: 28px;
+
+    }
+
+    .secure-text h2 {
+        font-size: 28px;
+    }
+
+    .bigger-text h2 {
+        font-size: 28px;
+    }
+
+    .play-anywhere-content h2 {
+        font-size: 28px;
+    }
+
+    ul.list-unstyled li a {
+        font-size: 16px;
+    }
+}
+
 @media (max-width: 991px) {
     .menu-list {
         width: 0;
@@ -27,8 +74,9 @@
     .menu-icon span {
         font-size: 26px;
         font-weight: 400;
-        color:#fff;
+        color: #fff;
     }
+
     span.menu-close {
         padding: 6px 6px;
         display: block;
@@ -49,11 +97,20 @@
     .menu-icon {
         display: block;
     }
+
+    .bottom-ft {
+        flex-direction: column;
+        gap: 10px;
+    }
 }
 
-@media (max-width: 991px) {
-.bottom-ft {
-    flex-direction: column;
-    gap: 10px;
-}
+@media (max-width: 767px) {
+    .games-outer-box img {
+        height: 285px;
+    }
+
+    .bnr-content h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
 }
