@@ -18,6 +18,18 @@
 
     }
 
+    .secure {
+        padding: 40px 0;
+    }
+
+    .spin-with-the {
+        padding: 40px 0;
+    }
+
+    .section__heading {
+        margin-bottom: 40px;
+    }
+
     .earn-stripes ul li {
         font-size: 16px;
 
