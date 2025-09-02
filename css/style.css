@@ -538,7 +538,7 @@ ul.list-unstyled li a:hover {
 }
 
 .inr-bnr-content h2 {
-    font-size: 32px;
+    font-size: 40px;
     line-height: 1.4;
     color: #fff;
     font-weight: 700;
@@ -755,4 +755,21 @@ ul.list-unstyled li a:hover {
 
 .about-mobispins-img img {
     height: 474px;
+}
+
+.gaware {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.gaware img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.gaware p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    font-weight: 400;
 }
