@@ -480,7 +480,6 @@ ul.list-unstyled li a:hover {
 .bottom-line {
     border-top: 1px solid #cccccc47;
     padding: 16px 0;
-    margin-top: 60px;
 }
 
 .bottom-ft {
@@ -758,19 +757,19 @@ ul.list-unstyled li a:hover {
 }
 
 .gaware {
-    margin-top: 50px;
-    max-width: 300px;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 40px;
 }
 
 .gaware img {
-    width: 200px;
+    width: 180px;
     margin-bottom: 20px;
 }
 
 .gaware p {
-    font-size: 20px;
+    font-size: 17px;
     line-height: 30px;
     color: #fff;
     font-weight: 400;
