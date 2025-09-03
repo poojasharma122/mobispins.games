@@ -172,7 +172,7 @@ span.menu-close {
 .games-outer-box img {
     width: 100%;
     height: 355px;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 16px;
 }
 
@@ -758,13 +758,14 @@ ul.list-unstyled li a:hover {
 
 .gaware {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     justify-content: center;
     margin-top: 40px;
+    align-items: center;
 }
 
 .gaware img {
-    width: 180px;
+    width: auto;
     margin-bottom: 20px;
 }
 
@@ -773,4 +774,9 @@ ul.list-unstyled li a:hover {
     line-height: 30px;
     color: #fff;
     font-weight: 400;
+}
+.games-img {
+    background: #007d8c57;
+    border-radius: 16px;
+    padding: 10px;
 }
