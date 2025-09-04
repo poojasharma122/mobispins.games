@@ -93,11 +93,11 @@ header.is-sticky {
 }
 
 .menu-list ul li a.active {
-    color: #007D8C;
+    color: #0066CC;
 }
 
 .menu-list ul li a:hover {
-    color: #007D8C;
+    color: #0066CC;
 }
 
 .main-content {
@@ -163,7 +163,7 @@ span.menu-close {
 /* Banner css */
 .hero-bnr {
     padding: 60px 0;
-    background: linear-gradient(180deg, #0B1D3A 0%, #007D8C 100%);
+    background: linear-gradient(180deg, #0B1D3A 0%, #0066CC 100%);
 
 }
 
@@ -207,7 +207,7 @@ span.menu-close {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 20px;
-    color: #007D8C;
+    color: #0066CC;
 }
 
 .section__heading {
@@ -232,7 +232,7 @@ span.menu-close {
     top: 12px;
     width: 8px;
     height: 8px;
-    background-color: #007D8C;
+    background-color: #0066CC;
     border-radius: 50%;
 }
 
@@ -243,14 +243,14 @@ span.menu-close {
 .games-content h2 {
     font-size: 24px;
     padding: 20px 0 0;
-    color: #007D8C;
+    color: #0066CC;
     font-weight: 600;
 }
 
 /*  */
 .earn-stripes {
     padding: 60px 0;
-    background: linear-gradient(180deg, #0B1D3A 0%, #007D8C 100%);
+    background: linear-gradient(180deg, #0B1D3A 0%, #0066CC 100%);
 }
 
 .bonuses {
@@ -341,12 +341,12 @@ span.menu-close {
 .bigger-text h2 {
     font-size: 40px;
     font-weight: 700;
-    color: #007D8C;
+    color: #0066CC;
 }
 
 .play-anywhere {
     padding: 60px 0;
-    background: linear-gradient(180deg, #0B1D3A 0%, #007D8C 100%);
+    background: linear-gradient(180deg, #0B1D3A 0%, #0066CC 100%);
 
 }
 
@@ -383,14 +383,14 @@ span.menu-close {
 .secure-text h2 {
     font-size: 40px;
     font-weight: 700;
-    color: #007D8C;
+    color: #0066CC;
     margin-bottom: 20px;
 }
 
 .newsletter-content h2 {
     font-size: 40px;
     font-weight: 700;
-    color: #007D8C;
+    color: #0066CC;
     margin-bottom: 20px;
 }
 
@@ -413,7 +413,7 @@ span.menu-close {
 
 .newsletter-section {
     padding: 60px 0;
-    background: linear-gradient(180deg, #0B1D3A 0%, #007D8C 100%);
+    background: linear-gradient(180deg, #0B1D3A 0%, #0066CC 100%);
 }
 
 .newsletter-content {
@@ -429,7 +429,7 @@ span.menu-close {
 .newsletter-content a {
     position: relative;
     overflow: hidden;
-    border: 1px solid#007D8C;
+    border: 1px solid#0066CC;
     color: #FAFAFA;
     display: inline-flex;
     justify-content: center;
@@ -440,7 +440,7 @@ span.menu-close {
     text-decoration: none;
     border-radius: 0;
     cursor: pointer;
-    background: #007D8C;
+    background: #0066CC;
     border-radius: 9px;
 }
 
@@ -483,7 +483,7 @@ ul.list-unstyled li a {
 }
 
 ul.list-unstyled li a:hover {
-    color: #007D8C;
+    color: #0066CC;
     transform: translateX(6px);
 }
 
@@ -493,15 +493,15 @@ ul.list-unstyled li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #9cecfe;
-    color: #9cecfe;
+    border: 1px solid #0066CC;
+    color: #0066CC;
     transition: all 0.3s;
 }
 
 .footer-widget.social a:hover {
-    background-color: #007D8C;
+    background-color: #0066CC;
     color: #fff;
-    border: 1px solid#007D8C;
+    border: 1px solid#0066CC;
 }
 
 .bottom-line {
@@ -522,7 +522,7 @@ ul.list-unstyled li a:hover {
 }
 
 .bottom-line p a {
-    color: #007D8C;
+    color: #0066CC;
 }
 
 .footer_SSlLink {
@@ -582,7 +582,7 @@ ul.list-unstyled li a:hover {
 
 .terms-content {
     padding: 60px 0;
-    background: linear-gradient(180deg, #0B1D3A 0%, #007D8C 100%);
+    background: linear-gradient(180deg, #0B1D3A 0%, #0066CC 100%);
 
 }
 
@@ -590,7 +590,7 @@ ul.list-unstyled li a:hover {
     font-size: 22px;
     margin-bottom: 0.9375rem;
     line-height: 1.4;
-    color: #007D8C;
+    color: #0066CC;
     font-weight: 700;
 }
 
@@ -617,7 +617,7 @@ ul.list-unstyled li a:hover {
     top: 10px;
     width: 8px;
     height: 8px;
-    background-color: #007D8C;
+    background-color: #0066CC;
     border-radius: 50%;
 }
 
@@ -629,7 +629,7 @@ ul.list-unstyled li a:hover {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 20px;
-    color: #007D8C;
+    color: #0066CC;
 }
 
 .about-mobispins-text p {
@@ -711,7 +711,7 @@ ul.list-unstyled li a:hover {
 .submit input {
     position: relative;
     overflow: hidden;
-    border: 1px solid#007D8C;
+    border: 1px solid#0066CC;
     color: #FAFAFA;
     display: inline-flex;
     justify-content: center;
@@ -722,7 +722,7 @@ ul.list-unstyled li a:hover {
     text-decoration: none;
     border-radius: 0;
     cursor: pointer;
-    background: #007D8C;
+    background: #0066CC;
     border-radius: 9px;
 }
 
@@ -735,7 +735,7 @@ ul.list-unstyled li a:hover {
 .btn-cst {
     position: relative;
     overflow: hidden;
-    border: 1px solid#007D8C;
+    border: 1px solid#0066CC;
     color: #FAFAFA;
     display: inline-flex;
     justify-content: center;
@@ -746,7 +746,7 @@ ul.list-unstyled li a:hover {
     text-decoration: none;
     border-radius: 0;
     cursor: pointer;
-    background: #007D8C;
+    background: #0066CC;
     border-radius: 9px;
 }
 
@@ -768,7 +768,7 @@ ul.list-unstyled li a:hover {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 20px;
-    color: #007D8C;
+    color: #0066CC;
 }
 
 .contact-us-innr p {
@@ -817,7 +817,7 @@ ul.list-unstyled li a:hover {
 
 section.bonanaza {
     padding: 60px 0;
-    background: linear-gradient(180deg, #0B1D3A 0%, #007D8C 100%);
+    background: linear-gradient(180deg, #0B1D3A 0%, #0066CC 100%);
 }
 
 .bonanaza-inner h2 {
@@ -840,8 +840,9 @@ canvas {
 }
 
 .popup-logo {
-    background: #0B1D3A;
+    background: #0066cc;
     padding: 20px;
+    border-radius: 6px  6px 0 0;
 }
 
 .popup-logo img {
@@ -874,7 +875,9 @@ canvas {
     font-size: 0.875em;
     color: #dc3545;
 }
-
+.bottom-ft a:hover {
+    color: #fff;
+}
 .invalid-feedback.show {
     display: block;
 }
@@ -921,7 +924,7 @@ canvas {
 
 /* Enhanced button styling for forms */
 .btn-cst {
-    background: linear-gradient(135deg, #007D8C 0%, #0B1D3A 100%);
+    background: linear-gradient(135deg, #0066CC 0%, #0B1D3A 100%);
     border: none;
     color: white;
     padding: 12px 24px;
@@ -931,9 +934,9 @@ canvas {
 }
 
 .btn-cst:hover {
-    background: linear-gradient(135deg, #0B1D3A 0%, #007D8C 100%);
+    background: linear-gradient(135deg, #0B1D3A 0%, #0066CC 100%);
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 125, 140, 0.3);
+    box-shadow: 0 4px 12px rgba(0, 102, 204, 0.3);
 }
 
 .btn-cst:disabled {
@@ -951,14 +954,14 @@ canvas {
 }
 
 .menu-list ul li a:hover {
-    color: #007D8C !important;
-    background-color: rgba(0, 125, 140, 0.1);
+    color: #0066CC !important;
+    background-color: rgba(0, 102, 204, 0.1);
     transform: translateY(-2px);
 }
 
 .menu-list ul li a.active {
-    color: #007D8C !important;
-    background-color: rgba(0, 125, 140, 0.15);
+    color: #0066CC !important;
+    background-color: rgba(0, 102, 204, 0.15);
 }
 
 .menu-list ul li a::after {
@@ -968,7 +971,7 @@ canvas {
     height: 2px;
     bottom: -2px;
     left: 50%;
-    background: linear-gradient(90deg, #007D8C, #0B1D3A);
+    background: linear-gradient(90deg, #0066CC, #0B1D3A);
     transition: all 0.3s ease;
     transform: translateX(-50%);
 }
@@ -987,7 +990,7 @@ canvas {
 
 .games-outer-box:hover {
     transform: translateY(-10px) scale(1.02);
-    box-shadow: 0 20px 40px rgba(0, 125, 140, 0.3);
+    box-shadow: 0 20px 40px rgba(0, 102, 204, 0.3);
 }
 
 .games-outer-box::before {
@@ -997,7 +1000,7 @@ canvas {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, rgba(0, 125, 140, 0.1), rgba(11, 29, 58, 0.1));
+    background: linear-gradient(135deg, rgba(0, 102, 204, 0.1), rgba(11, 29, 58, 0.1));
     opacity: 0;
     transition: opacity 0.3s ease;
     z-index: 1;
@@ -1029,7 +1032,7 @@ canvas {
 
 .logo a:hover {
     transform: scale(1.05);
-    filter: drop-shadow(0 4px 8px rgba(0, 125, 140, 0.3));
+    filter: drop-shadow(0 4px 8px rgba(0, 102, 204, 0.3));
 }
 
 /* Button Hover Effects */
@@ -1056,7 +1059,7 @@ canvas {
 
 .bnr-btn button:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 25px rgba(0, 125, 140, 0.4);
+    box-shadow: 0 8px 25px rgba(0, 102, 204, 0.4);
 }
 
 /* Footer Links Hover Effects */
@@ -1067,7 +1070,7 @@ canvas {
 }
 
 .footer-widget ul li a:hover {
-    color: #007D8C !important;
+    color: #0066CC !important;
     padding-left: 10px;
 }
 
@@ -1077,7 +1080,7 @@ canvas {
     left: -20px;
     opacity: 0;
     transition: all 0.3s ease;
-    color: #007D8C;
+    color: #0066CC;
 }
 
 .footer-widget ul li a:hover::before {
@@ -1094,9 +1097,9 @@ canvas {
 
 .footer-widget.social .btn:hover {
     transform: translateY(-3px) scale(1.1);
-    background-color: #007D8C !important;
-    border-color: #007D8C !important;
-    box-shadow: 0 8px 20px rgba(0, 125, 140, 0.4);
+    background-color: #0066CC !important;
+    border-color: #0066CC !important;
+    box-shadow: 0 8px 20px rgba(0, 102, 204, 0.4);
 }
 
 .footer-widget.social .btn::before {
@@ -1142,7 +1145,7 @@ canvas {
 
 .newsletter-content a:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 25px rgba(0, 125, 140, 0.4);
+    box-shadow: 0 8px 25px rgba(0, 102, 204, 0.4);
 }
 
 /* Menu Icon Hover Effect */
@@ -1154,7 +1157,7 @@ canvas {
 }
 
 .menu-icon span:hover {
-    background-color: rgba(0, 125, 140, 0.1);
+    background-color: rgba(0, 102, 204, 0.1);
     transform: scale(1.1);
 }
 
@@ -1180,15 +1183,15 @@ canvas {
 
 /* Form Input Hover Effects */
 .form-control:hover {
-    border-color: #007D8C;
-    box-shadow: 0 0 0 0.2rem rgba(0, 125, 140, 0.1);
+    border-color: #0066CC;
+    box-shadow: 0 0 0 0.2rem rgba(0, 102, 204, 0.1);
 }
 
 /* Contact Form Input Hover */
 .input_wrapper input:hover,
 .input_wrapper textarea:hover {
-    border-color: #007D8C;
-    box-shadow: 0 0 0 0.2rem rgba(0, 125, 140, 0.1);
+    border-color: #0066CC;
+    box-shadow: 0 0 0 0.2rem rgba(0, 102, 204, 0.1);
 }
 
 /* Section Cards Hover Effects */
@@ -1201,7 +1204,7 @@ canvas {
 .about-card:hover,
 .bonus-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 15px 30px rgba(0, 125, 140, 0.2);
+    box-shadow: 0 15px 30px rgba(0, 102, 204, 0.2);
 }
 
 .about-card:hover .about-icon,
@@ -1211,7 +1214,7 @@ canvas {
 
 /* Typing Effect Styles */
 .typing-cursor {
-    color: #007D8C;
+    color: #0066CC;
     font-weight: 700;
     animation: blink 1s infinite;
     margin-left: 2px;
