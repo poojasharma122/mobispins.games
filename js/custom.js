@@ -100,9 +100,27 @@ function validateForm(form) {
 }
 
 function setupFormValidation() {
+    // Function to hide all validation messages in a form
+    function hideAllValidationMessages(form) {
+        form.querySelectorAll('.invalid-feedback').forEach(feedback => {
+            feedback.classList.remove('show');
+        });
+        form.querySelectorAll('.is-valid, .is-invalid').forEach(field => {
+            field.classList.remove('is-valid', 'is-invalid');
+        });
+    }
+
     // Login Form Validation
     const loginForm = document.getElementById('loginForm');
     if (loginForm) {
+        // Hide validation messages when modal opens
+        const loginModal = document.getElementById('loginModal');
+        if (loginModal) {
+            loginModal.addEventListener('show.bs.modal', function() {
+                hideAllValidationMessages(loginForm);
+            });
+        }
+
         loginForm.addEventListener('submit', function(e) {
             e.preventDefault();
             
@@ -111,15 +129,19 @@ function setupFormValidation() {
                 alert('Login form is valid! (This is a demo - no actual login will occur)');
                 // Reset form
                 this.reset();
-                this.querySelectorAll('.is-valid, .is-invalid').forEach(field => {
-                    field.classList.remove('is-valid', 'is-invalid');
-                });
+                hideAllValidationMessages(this);
             }
         });
 
         // Real-time validation on input
         loginForm.querySelectorAll('input').forEach(input => {
             let hasInteracted = false;
+            
+            // Ensure validation messages are hidden on page load
+            const feedbackElement = input.parentNode.querySelector('.invalid-feedback');
+            if (feedbackElement) {
+                feedbackElement.classList.remove('show');
+            }
             
             input.addEventListener('blur', function() {
                 hasInteracted = true;
@@ -136,6 +158,14 @@ function setupFormValidation() {
     // Registration Form Validation
     const registerForm = document.getElementById('registerForm');
     if (registerForm) {
+        // Hide validation messages when modal opens
+        const registerModal = document.getElementById('registerModal');
+        if (registerModal) {
+            registerModal.addEventListener('show.bs.modal', function() {
+                hideAllValidationMessages(registerForm);
+            });
+        }
+
         registerForm.addEventListener('submit', function(e) {
             e.preventDefault();
             
@@ -144,15 +174,19 @@ function setupFormValidation() {
                 alert('Registration form is valid! (This is a demo - no actual registration will occur)');
                 // Reset form
                 this.reset();
-                this.querySelectorAll('.is-valid, .is-invalid').forEach(field => {
-                    field.classList.remove('is-valid', 'is-invalid');
-                });
+                hideAllValidationMessages(this);
             }
         });
 
         // Real-time validation on input
         registerForm.querySelectorAll('input').forEach(input => {
             let hasInteracted = false;
+            
+            // Ensure validation messages are hidden on page load
+            const feedbackElement = input.parentNode.querySelector('.invalid-feedback');
+            if (feedbackElement) {
+                feedbackElement.classList.remove('show');
+            }
             
             input.addEventListener('blur', function() {
                 hasInteracted = true;
@@ -177,15 +211,19 @@ function setupFormValidation() {
                 alert('Contact form is valid! (This is a demo - no actual message will be sent)');
                 // Reset form
                 this.reset();
-                this.querySelectorAll('.is-valid, .is-invalid').forEach(field => {
-                    field.classList.remove('is-valid', 'is-invalid');
-                });
+                hideAllValidationMessages(this);
             }
         });
 
         // Real-time validation on input
         contactForm.querySelectorAll('input, textarea').forEach(field => {
             let hasInteracted = false;
+            
+            // Ensure validation messages are hidden on page load
+            const feedbackElement = field.parentNode.querySelector('.invalid-feedback');
+            if (feedbackElement) {
+                feedbackElement.classList.remove('show');
+            }
             
             field.addEventListener('blur', function() {
                 hasInteracted = true;

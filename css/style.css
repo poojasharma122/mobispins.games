@@ -1023,8 +1023,8 @@ ul.list-unstyled li a:hover {
 
 /*  */
 .inner-bnr {
-    height: 300px;
-    background-position: center !important;
+    height: 450px;
+    background-position: 101% 31% !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
     display: flex;
