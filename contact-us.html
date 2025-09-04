@@ -68,15 +68,27 @@
                 <P>Got a question, some feedback, or just want to say hello? The Mobispins team is always here to help.
                     Reach out anytime and we’ll get back to you as soon as possible — because in this family, every
                     player counts.</P>
-                <form action="#">
+                <form id="contactForm" action="#" novalidate>
                     <div class="input_wrapper">
-                        <input type="text" name="name" id="name" placeholder="Name">
+                        <label for="name" class="form-label">Name <span class="text-danger">*</span></label>
+                        <input type="text" name="name" id="name" placeholder="Name" required minlength="2">
+                        <div class="invalid-feedback">
+                            Please enter your name (at least 2 characters).
+                        </div>
                     </div>
                     <div class="input_wrapper">
-                        <input type="email" name="email" id="email" placeholder="Email Address">
+                        <label for="email" class="form-label">Email Address <span class="text-danger">*</span></label>
+                        <input type="email" name="email" id="email" placeholder="Email Address" required>
+                        <div class="invalid-feedback">
+                            Please enter a valid email address.
+                        </div>
                     </div>
                     <div class="input_wrapper">
-                        <textarea name="message" id="message" placeholder="Message"></textarea>
+                        <label for="message" class="form-label">Message <span class="text-danger">*</span></label>
+                        <textarea name="message" id="message" placeholder="Message" required minlength="10"></textarea>
+                        <div class="invalid-feedback">
+                            Please enter a message (at least 10 characters).
+                        </div>
                     </div>
                     <div class="submit">
                         <input type="submit" value="Submit">

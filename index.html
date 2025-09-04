@@ -58,7 +58,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="bnr-content">
-                            <h1>Mobispins.games – Your Social Casino Hit</h1>
+                            <h1>Mobispins.games – <span id="typing-text">Your Social Casino Hit</span><span class="typing-cursor">|</span></h1>
                             <p>Step into the world of Mobispins, where the reels never sleep and the jackpots hit harder
                                 than ever. Packed with thrilling slot machines, classic table games, and nonstop action,
                                 Mobispins is the new boss of social casinos.</p>
@@ -71,7 +71,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="bnr-img">
-                            <img src="images/bnr-removebg.png" alt="bnr">
+                            <img src="images/bnr-img.png" alt="bnr">
                         </div>
                     </div>
                 </div>
@@ -372,16 +372,22 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form id="loginForm" novalidate>
                         <div class="mb-3">
-                            <label for="loginEmail" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="loginEmail" placeholder="Enter email">
+                            <label for="loginEmail" class="form-label">Email address <span class="text-danger">*</span></label>
+                            <input type="email" class="form-control" id="loginEmail" name="email" placeholder="Enter email" required>
+                            <div class="invalid-feedback">
+                                Please enter a valid email address.
+                            </div>
                         </div>
                         <div class="mb-3">
-                            <label for="loginPassword" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="loginPassword" placeholder="Password">
+                            <label for="loginPassword" class="form-label">Password <span class="text-danger">*</span></label>
+                            <input type="password" class="form-control" id="loginPassword" name="password" placeholder="Password" required minlength="6">
+                            <div class="invalid-feedback">
+                                Password must be at least 6 characters long.
+                            </div>
                         </div>
-                        <button type="button" class="w-100 btn-cst">Login</button>
+                        <button type="submit" class="w-100 btn-cst">Login</button>
                     </form>
                 </div>
             </div>
@@ -400,20 +406,29 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form id="registerForm" novalidate>
                         <div class="mb-3">
-                            <label for="regName" class="form-label">Full Name</label>
-                            <input type="text" class="form-control" id="regName" placeholder="Enter full name">
+                            <label for="regName" class="form-label">Full Name <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="regName" name="fullName" placeholder="Enter full name" required minlength="2">
+                            <div class="invalid-feedback">
+                                Please enter your full name (at least 2 characters).
+                            </div>
                         </div>
                         <div class="mb-3">
-                            <label for="regEmail" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="regEmail" placeholder="Enter email">
+                            <label for="regEmail" class="form-label">Email address <span class="text-danger">*</span></label>
+                            <input type="email" class="form-control" id="regEmail" name="email" placeholder="Enter email" required>
+                            <div class="invalid-feedback">
+                                Please enter a valid email address.
+                            </div>
                         </div>
                         <div class="mb-3">
-                            <label for="regPassword" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="regPassword" placeholder="Password">
+                            <label for="regPassword" class="form-label">Password <span class="text-danger">*</span></label>
+                            <input type="password" class="form-control" id="regPassword" name="password" placeholder="Password" required minlength="8">
+                            <div class="invalid-feedback">
+                                Password must be at least 8 characters long.
+                            </div>
                         </div>
-                        <button type="button" class="w-100 btn-cst">sign up </button>
+                        <button type="submit" class="w-100 btn-cst">Sign Up</button>
                     </form>
                 </div>
             </div>
