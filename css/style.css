@@ -775,8 +775,28 @@ ul.list-unstyled li a:hover {
     color: #fff;
     font-weight: 400;
 }
+
 .games-img {
     background: #007d8c57;
     border-radius: 16px;
     padding: 10px;
+}
+
+.bonanaza-video iframe {
+    height: 676px;
+    object-fit: cover !important;
+    width: 100%;
+}
+
+section.bonanaza {
+    padding: 60px 0;
+    background: linear-gradient(180deg, #0B1D3A 0%, #007D8C 100%);
+}
+
+.bonanaza-inner h2 {
+    color: #fff;
+    font-size: 2.25rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
 }
