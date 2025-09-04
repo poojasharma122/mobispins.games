@@ -2526,7 +2526,7 @@ canvas {
 }
 
 .account-dropdown .dropdown-item:hover {
-    color: #ffffff;
+    color: #ffffff !important;
     transform: translateX(8px);
     padding-left: 28px;
 }
