@@ -35,19 +35,28 @@
                                     <li><a href="about-us" class="active">About us </a></li>
                                     <li><a href="contact-us">Contact us</a></li>
                                 </ul>
-                                <div class="header-buttons">
-                                    <button class="btn-login" data-bs-toggle="modal" data-bs-target="#loginModal">
-                                        Login
-                                    </button>
-                                    <button class="btn-signup" data-bs-toggle="modal" data-bs-target="#registerModal">
-                                        Sign Up
-                                    </button>
-                                </div>
                             </div>
-                            <div class="menu-icon">
-                                <span onclick="openNav()">
-                                    <i class="fa-solid fa-bars"></i>
-                                </span>
+                            <div class="header-actions">
+                                <div class="account-dropdown">
+                                    <button class="btn-account" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="fas fa-user"></i>
+                                        <span>My Account</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">
+                                            <i class="fas fa-sign-in-alt"></i> Login
+                                        </a></li>
+                                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#registerModal">
+                                            <i class="fas fa-user-plus"></i> Sign Up
+                                        </a></li>
+                                    </ul>
+                                </div>
+                                <div class="menu-icon">
+                                    <span onclick="openNav()">
+                                        <i class="fa-solid fa-bars"></i>
+                                    </span>
+                                </div>
                             </div>
 
                         </div>
