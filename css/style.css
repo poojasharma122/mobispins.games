@@ -82,7 +82,7 @@ header.is-sticky {
 .menu-list {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
 }
 
 .menu-list ul {
@@ -178,7 +178,7 @@ span.menu-close {
     background-image: url(../images/banner-hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top left;
+    background-position: center;
     position: relative;
     overflow: hidden;
     z-index: 1;
@@ -2313,7 +2313,7 @@ canvas {
 .header-actions {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
 }
 
 /* Account Dropdown Styles */

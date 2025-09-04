@@ -30,50 +30,57 @@
                                     <i class="fa-solid fa-xmark"></i>
                                 </span>
                                 <ul>
-                                    <li><a href="./">Home</a></li>
+                                    <li><a href="./" >Home</a></li>
                                     <li><a href="games">Games</a></li>
                                     <li><a href="about-us" class="active">About us </a></li>
                                     <li><a href="contact-us">Contact us</a></li>
                                 </ul>
                                 <div class="mobile-account-section">
                                     <div class="account-dropdown">
-                                        <button class="btn-account" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <button class="btn-account" type="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
                                             <i class="fas fa-user"></i>
                                             <span>My Account</span>
                                             <i class="fas fa-chevron-down"></i>
                                         </button>
                                         <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">
-                                                <i class="fas fa-sign-in-alt"></i> Login
-                                            </a></li>
-                                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#registerModal">
-                                                <i class="fas fa-user-plus"></i> Sign Up
-                                            </a></li>
+                                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                    data-bs-target="#loginModal">
+                                                    <i class="fas fa-sign-in-alt"></i> Login
+                                                </a></li>
+                                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                    data-bs-target="#registerModal">
+                                                    <i class="fas fa-user-plus"></i> Sign Up
+                                                </a></li>
                                         </ul>
                                     </div>
                                 </div>
+                                <div class="header-actions">
+                                    <div class="account-dropdown">
+                                        <button class="btn-account" type="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            <i class="fas fa-user"></i>
+                                            <span>My Account</span>
+                                            <i class="fas fa-chevron-down"></i>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                    data-bs-target="#loginModal">
+                                                    <i class="fas fa-sign-in-alt"></i> Login
+                                                </a></li>
+                                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                    data-bs-target="#registerModal">
+                                                    <i class="fas fa-user-plus"></i> Sign Up
+                                                </a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
                             </div>
-                            <div class="header-actions">
-                                <div class="account-dropdown">
-                                    <button class="btn-account" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <i class="fas fa-user"></i>
-                                        <span>My Account</span>
-                                        <i class="fas fa-chevron-down"></i>
-                                    </button>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">
-                                            <i class="fas fa-sign-in-alt"></i> Login
-                                        </a></li>
-                                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#registerModal">
-                                            <i class="fas fa-user-plus"></i> Sign Up
-                                        </a></li>
-                                    </ul>
-                                </div>
-                                <div class="menu-icon">
-                                    <span onclick="openNav()">
-                                        <i class="fa-solid fa-bars"></i>
-                                    </span>
-                                </div>
+                            <div class="menu-icon">
+                                <span onclick="openNav()">
+                                    <i class="fa-solid fa-bars"></i>
+                                </span>
                             </div>
 
                         </div>
@@ -226,7 +233,7 @@
                 <!-- Links -->
                 <div class="col-12">
                     <div class="footer-widget">
-                      
+
                         <ul class="list-unstyled">
                             <li><a href="./">Home</a></li>
                             <li><a href="games">Games</a></li>
@@ -241,7 +248,7 @@
                 <!-- Social + App Store -->
                 <div class="col-12">
                     <div class="footer-widget social">
-                        
+
                         <div class="d-flex gap-2 mb-3">
                             <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i
                                     class="fab fa-facebook-f"></i></a>
@@ -296,15 +303,19 @@
                 <div class="modal-body">
                     <form id="loginForm" novalidate>
                         <div class="mb-3">
-                            <label for="loginEmail" class="form-label">Email address <span class="text-danger">*</span></label>
-                            <input type="email" class="form-control" id="loginEmail" name="email" placeholder="Enter email" required>
+                            <label for="loginEmail" class="form-label">Email address <span
+                                    class="text-danger">*</span></label>
+                            <input type="email" class="form-control" id="loginEmail" name="email"
+                                placeholder="Enter email" required>
                             <div class="invalid-feedback">
                                 Please enter a valid email address.
                             </div>
                         </div>
                         <div class="mb-3">
-                            <label for="loginPassword" class="form-label">Password <span class="text-danger">*</span></label>
-                            <input type="password" class="form-control" id="loginPassword" name="password" placeholder="Password" required minlength="6">
+                            <label for="loginPassword" class="form-label">Password <span
+                                    class="text-danger">*</span></label>
+                            <input type="password" class="form-control" id="loginPassword" name="password"
+                                placeholder="Password" required minlength="6">
                             <div class="invalid-feedback">
                                 Password must be at least 6 characters long.
                             </div>
@@ -320,7 +331,7 @@
     <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered"> <!-- Centered -->
             <div class="modal-content">
-                 <div class="popup-logo">
+                <div class="popup-logo">
                     <img src="images/logo.png" alt="logo">
                 </div>
                 <div class="modal-header">
@@ -331,21 +342,26 @@
                     <form id="registerForm" novalidate>
                         <div class="mb-3">
                             <label for="regName" class="form-label">Full Name <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control" id="regName" name="fullName" placeholder="Enter full name" required minlength="2">
+                            <input type="text" class="form-control" id="regName" name="fullName"
+                                placeholder="Enter full name" required minlength="2">
                             <div class="invalid-feedback">
                                 Please enter your full name (at least 2 characters).
                             </div>
                         </div>
                         <div class="mb-3">
-                            <label for="regEmail" class="form-label">Email address <span class="text-danger">*</span></label>
-                            <input type="email" class="form-control" id="regEmail" name="email" placeholder="Enter email" required>
+                            <label for="regEmail" class="form-label">Email address <span
+                                    class="text-danger">*</span></label>
+                            <input type="email" class="form-control" id="regEmail" name="email"
+                                placeholder="Enter email" required>
                             <div class="invalid-feedback">
                                 Please enter a valid email address.
                             </div>
                         </div>
                         <div class="mb-3">
-                            <label for="regPassword" class="form-label">Password <span class="text-danger">*</span></label>
-                            <input type="password" class="form-control" id="regPassword" name="password" placeholder="Password" required minlength="8">
+                            <label for="regPassword" class="form-label">Password <span
+                                    class="text-danger">*</span></label>
+                            <input type="password" class="form-control" id="regPassword" name="password"
+                                placeholder="Password" required minlength="8">
                             <div class="invalid-feedback">
                                 Password must be at least 8 characters long.
                             </div>
