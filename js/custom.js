@@ -200,32 +200,58 @@ function setupFormValidation() {
     }
 }
 
-// Typing Effect Function
-function typeWriter(element, text, speed = 100) {
+// Infinite Typing Effect Function
+function infiniteTypeWriter(element, text, speed = 100, pauseTime = 2000) {
     let i = 0;
-    element.innerHTML = '';
+    let isDeleting = false;
+    let currentText = '';
     
     function type() {
-        if (i < text.length) {
-            element.innerHTML += text.charAt(i);
+        if (!isDeleting && i < text.length) {
+            // Typing forward
+            currentText += text.charAt(i);
             i++;
-            setTimeout(type, speed);
+        } else if (isDeleting && currentText.length > 0) {
+            // Deleting backward
+            currentText = currentText.slice(0, -1);
+            i--;
+        } else if (!isDeleting && i >= text.length) {
+            // Finished typing, pause then start deleting
+            setTimeout(() => {
+                isDeleting = true;
+                type();
+            }, pauseTime);
+            return;
+        } else if (isDeleting && currentText.length === 0) {
+            // Finished deleting, pause then start typing again
+            isDeleting = false;
+            i = 0;
+            setTimeout(() => {
+                type();
+            }, pauseTime / 2);
+            return;
         }
+        
+        element.innerHTML = currentText;
+        
+        // Adjust speed - slower when deleting
+        const currentSpeed = isDeleting ? speed / 2 : speed;
+        setTimeout(type, currentSpeed);
     }
     
     type();
 }
 
-// Initialize typing effect when DOM is loaded
+// Initialize infinite typing effect when DOM is loaded
 document.addEventListener('DOMContentLoaded', function() {
     setupFormValidation();
     
-    // Start typing effect after a short delay
+    // Start infinite typing effect after a short delay
     setTimeout(function() {
         const typingElement = document.getElementById('typing-text');
         if (typingElement) {
             const originalText = typingElement.textContent;
-            typeWriter(typingElement, originalText, 150);
+            infiniteTypeWriter(typingElement, originalText, 150, 3000);
         }
     }, 1000); // Start after 1 second delay
 });
