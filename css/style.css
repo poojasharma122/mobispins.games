@@ -836,4 +836,16 @@ section.bonanaza {
 canvas {
     width: 100% !important;
     left: 0 !important;
+    
+}
+
+.popup-logo {
+    background: #0B1D3A;
+    padding: 20px;
+}
+
+.popup-logo img {
+    width: 130px;
+    margin: auto;
+    display: block;
 }
