@@ -1557,8 +1557,8 @@ textarea {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .contact-us {
-        padding: 60px 0;
+.contact-us {
+    padding: 60px 0;
         min-height: auto;
     }
 
@@ -1776,7 +1776,7 @@ section.bonanaza {
 canvas {
     width: 100% !important;
     left: 0 !important;
-
+    
 }
 
 .popup-logo {
@@ -2409,12 +2409,14 @@ canvas {
     transform: translateY(-15px) scale(0.95);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     backdrop-filter: blur(10px);
+    pointer-events: none;
 }
 
 .account-dropdown .dropdown-menu.show {
     opacity: 1;
     visibility: visible;
     transform: translateY(0) scale(1);
+    pointer-events: auto;
 }
 
 .account-dropdown .dropdown-item {
@@ -2433,6 +2435,7 @@ canvas {
     text-align: left;
     position: relative;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .account-dropdown .dropdown-item::before {
@@ -2440,11 +2443,12 @@ canvas {
     position: absolute;
     top: 0;
     left: -100%;
-    width: 100%;
+    width: 92%;
     height: 100%;
     background: linear-gradient(135deg, #21C4D3, #189AA7);
-    transition: left 0.4s ease;
+    transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     z-index: -1;
+    border-radius: 8px;
 }
 
 .account-dropdown .dropdown-item:hover::before {
@@ -2466,6 +2470,11 @@ canvas {
 
 .account-dropdown .dropdown-item:hover i {
     transform: scale(1.1);
+}
+
+/* Mobile Account Section - Hidden by default on desktop */
+.mobile-account-section {
+    display: none;
 }
 
 /* Responsive Design for Account Dropdown */
@@ -2492,45 +2501,63 @@ canvas {
         gap: 10px;
     }
     
-    .btn-account {
-        padding: 8px 12px;
-        font-size: 12px;
-        gap: 6px;
-    }
-    
-    .btn-account span {
+    /* Hide account dropdown in header on mobile */
+    .header-actions .account-dropdown {
         display: none;
     }
     
-    .account-dropdown .dropdown-menu {
-        position: absolute;
-        top: calc(100% + 8px);
-        right: 0;
-        min-width: 180px;
-        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    /* Show mobile account section in sidebar on mobile */
+    .mobile-account-section {
+        display: block;
+        margin-top: 30px;
+        padding-top: 20px;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        margin-left: 20px;
+    }
+    
+    .mobile-account-section .btn-account {
+        width: 100%;
+        justify-content: center;
+        padding: 12px 20px;
+        font-size: 14px;
+        background: linear-gradient(135deg, #21C4D3, #189AA7);
+        border: 1px solid #21C4D3;
+        color: #ffffff;
+    }
+    
+    .mobile-account-section .btn-account:hover {
+        background: linear-gradient(135deg, #189AA7, #21C4D3);
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px rgba(33, 196, 211, 0.3);
+    }
+    
+    .mobile-account-section .account-dropdown .dropdown-menu {
+        position: static;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
         border: 1px solid rgba(33, 196, 211, 0.2);
         border-radius: 10px;
-        opacity: 0;
-        visibility: hidden;
-        transform: translateY(-10px);
-        transition: all 0.3s ease;
-        display: block;
-    }
-    
-    .account-dropdown .dropdown-menu.show {
+        margin-top: 10px;
         opacity: 1;
         visibility: visible;
-        transform: translateY(0);
+        transform: none;
+        display: none;
+        min-width: 100%;
+        pointer-events: auto;
     }
     
-    .account-dropdown .dropdown-item {
-        padding: 10px 16px;
-        font-size: 13px;
+    .mobile-account-section .account-dropdown .dropdown-menu.show {
+        display: block;
+        animation: slideDown 0.3s ease;
     }
     
-    .account-dropdown .dropdown-item:hover {
+    .mobile-account-section .account-dropdown .dropdown-item {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+    
+    .mobile-account-section .account-dropdown .dropdown-item:hover {
         transform: translateX(5px);
-        padding-left: 20px;
+        padding-left: 25px;
     }
 }
 
