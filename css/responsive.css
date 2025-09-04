@@ -124,6 +124,11 @@
         font-size: 18px;
     }
 
+    .bonanaza-video iframe {
+        height: 300px;
+
+    }
+
     .menu-icon {
         display: block;
     }
@@ -150,6 +155,12 @@
         margin-top: 30px;
     }
 
+    .bonanaza-inner h2 {
+
+        font-size: 1.25rem;
+
+    }
+
     .about-mobispins {
         padding: 40px 0;
     }
@@ -158,6 +169,10 @@
 @media (max-width: 767px) {
     .games-outer-box img {
         height: 285px;
+    }
+
+    .logo img {
+        max-width: 150px;
     }
 
     .bnr-content h1 {
