@@ -90,7 +90,7 @@
     <section class="inner-bnr" style="background-image: url(./images/all-game-bnr.png);">
         <div class="container">
             <div class="inr-bnr-content">
-                <h2>All games </h2>
+                <h2 class="scroll-animate">All games </h2>
             </div>
         </div>
     </section>
@@ -100,12 +100,12 @@
     <div class="spin-with-the games-cst">
         <div class="container">
             <div class="section__heading">
-                <h2>Games at Mobispins</h2>
+                <h2 class="scroll-animate">Games at Mobispins</h2>
             </div>
             <div class="games-outer">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-6">
-                        <div class="games-outer-box">
+                        <div class="games-outer-box game-card">
                             <a href="boat-bonanaza-down-under">
                                 <div class="games-img">
                                     <img src="images/boat-bonanza-down-under.jpg" alt="boat-bonanza-down-under">
@@ -115,7 +115,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-6">
-                        <div class="games-outer-box">
+                        <div class="games-outer-box game-card">
                             <a href="mega-don-feeding-frenzy">
                                 <div class="games-img">
                                     <img src="images/mega-do.jpg" alt="mega-do">
@@ -125,7 +125,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-6">
-                        <div class="games-outer-box">
+                        <div class="games-outer-box game-card">
                             <a href="boat-bonanza">
                                 <div class="games-img">
                                     <img src="images/boat-bonanza.jpg" alt="boat-bonanza">
@@ -135,7 +135,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-6">
-                        <div class="games-outer-box">
+                        <div class="games-outer-box game-card">
                             <a href="octopuc-treasure">
                                 <div class="games-img">
                                     <img src="images/octopus-treasure.jpg" alt="octopus-treasure">
@@ -145,22 +145,22 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-6">
-                        <div class="games-outer-box">
+                        <div class="games-outer-box game-card">
                             <a href="mega-don">
                                 <div class="games-img">
                                     <img src="images/mega-don.jpg" alt="mega-don">
                                 </div>
-                               
+                                
                             </a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-6">
-                        <div class="games-outer-box">
+                        <div class="games-outer-box game-card">
                             <a href="piranha-pays">
                                 <div class="games-img">
                                     <img src="images/piranha-pays.jpg" alt="piranha-pays">
                                 </div>
-                               
+                                
                             </a>
                         </div>
                     </div>
@@ -320,6 +320,38 @@
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/custom.js"></script>
+    
+    <!-- Scroll Animation Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Scroll animation function
+            function animateOnScroll() {
+                const elements = document.querySelectorAll('.scroll-animate, .game-card, .section-animate');
+                
+                elements.forEach((element, index) => {
+                    const elementTop = element.getBoundingClientRect().top;
+                    const elementVisible = 150;
+                    
+                    if (elementTop < window.innerHeight - elementVisible) {
+                        // Add staggered delay for game cards
+                        if (element.classList.contains('game-card')) {
+                            setTimeout(() => {
+                                element.classList.add('animate');
+                            }, index * 100);
+                        } else {
+                            element.classList.add('animate');
+                        }
+                    }
+                });
+            }
+            
+            // Run animation on scroll
+            window.addEventListener('scroll', animateOnScroll);
+            
+            // Run animation on page load
+            animateOnScroll();
+        });
+    </script>
 </body>
 
 </html>

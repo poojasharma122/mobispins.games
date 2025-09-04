@@ -96,7 +96,7 @@
     <section class="inner-bnr" style="background-image: url(./images/about-bnr.jpg);">
         <div class="container">
             <div class="inr-bnr-content">
-                <h2>About us </h2>
+                <h2 class="scroll-animate">About us </h2>
             </div>
         </div>
     </section>
@@ -106,18 +106,18 @@
             <div class="about-mobispins-inner">
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="about-mobispins-text">
+                        <div class="about-mobispins-text scroll-fade-left">
                             <h3>👑 About Mobispins</h3>
                             <p>Welcome to Mobispins.games – the social casino where the reels spin faster, the jackpots
                                 hit harder, and the action never sleeps.</p>
                             <p>We built Mobispins for one reason: to bring the thrill of the casino floor straight to
-                                your screen. Whether you’re a casual spinner or a seasoned high roller, Mobispins gives
+                                your screen. Whether you're a casual spinner or a seasoned high roller, Mobispins gives
                                 you a place to play, compete, and rise through the ranks — all without spending a dime
                                 of real money.</p>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="about-mobispins-img">
+                        <div class="about-mobispins-img scroll-fade-right">
                             <img src="images/About-us.jpg" alt="">
                         </div>
                     </div>
@@ -128,24 +128,24 @@
 
     <section class="about-sec ">
         <div class="container">
-            <h2 class="about-title">🎰 What We’re About</h2>
+            <h2 class="about-title scroll-animate">🎰 What We're About</h2>
             <div class="about-grid">
                 <div class="row">
                     <div class="col-lg-4">
-                        <div class="about-card">
+                        <div class="about-card scroll-scale">
                             <div class="about-icon">🎮</div>
                             <h3>Entertainment First</h3>
-                            <p>We’re here to keep you spinning, laughing, and chasing big wins without the risks of real
+                            <p>We're here to keep you spinning, laughing, and chasing big wins without the risks of real
                                 gambling.
                             </p>
                         </div>
 
                     </div>
                     <div class="col-lg-4">
-                        <div class="about-card">
+                        <div class="about-card scroll-scale scroll-animate-delay-1">
                             <div class="about-icon">🤝</div>
                             <h3>Community Driven</h3>
-                            <p>Mobispins isn’t just a casino, it’s a family. Join friends, send gifts, climb the
+                            <p>Mobispins isn't just a casino, it's a family. Join friends, send gifts, climb the
                                 leaderboards,
                                 and
                                 celebrate wins together.</p>
@@ -154,7 +154,7 @@
 
                     </div>
                     <div class="col-lg-4">
-                        <div class="about-card">
+                        <div class="about-card scroll-scale scroll-animate-delay-2">
                             <div class="about-icon">⚡</div>
                             <h3>Always Growing</h3>
                             <p>New slots, fresh challenges, and limited-time events keep the action rolling 24/7.</p>
@@ -375,6 +375,31 @@
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/custom.js"></script>
+    
+    <!-- Scroll Animation Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Scroll animation function
+            function animateOnScroll() {
+                const elements = document.querySelectorAll('.scroll-animate, .scroll-fade-left, .scroll-fade-right, .scroll-scale, .scroll-rotate, .section-animate');
+                
+                elements.forEach((element, index) => {
+                    const elementTop = element.getBoundingClientRect().top;
+                    const elementVisible = 150;
+                    
+                    if (elementTop < window.innerHeight - elementVisible) {
+                        element.classList.add('animate');
+                    }
+                });
+            }
+            
+            // Run animation on scroll
+            window.addEventListener('scroll', animateOnScroll);
+            
+            // Run animation on page load
+            animateOnScroll();
+        });
+    </script>
 </body>
 
 </html>

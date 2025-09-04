@@ -89,10 +89,10 @@
     <section class="bonanaza">
         <div class="container">
             <div class="bonanaza-inner">
-                <h2>Boat Bonanza</h2>
+                <h2 class="scroll-animate">Boat Bonanza</h2>
             </div>
 
-            <div class="bonanaza-video">
+            <div class="bonanaza-video scroll-scale">
                 <iframe class="Z8YsjS" title="Embedded Content" name="htmlComp-iframe" width="100%" height="100%"
                     allow="fullscreen" data-src=""
                     src="https://asccw.playngonetwork.com/casino/ContainerLauncher?pid=2&amp;gid=boatbonanza&amp;lang=en_GB&amp;practice=1&amp;channel=desktop&amp;demo=2&amp;refresh=1756979602275"></iframe>
@@ -254,6 +254,31 @@
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/custom.js"></script>
+    
+    <!-- Scroll Animation Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Scroll animation function
+            function animateOnScroll() {
+                const elements = document.querySelectorAll('.scroll-animate, .scroll-fade-left, .scroll-fade-right, .scroll-scale, .scroll-rotate, .section-animate');
+                
+                elements.forEach((element, index) => {
+                    const elementTop = element.getBoundingClientRect().top;
+                    const elementVisible = 150;
+                    
+                    if (elementTop < window.innerHeight - elementVisible) {
+                        element.classList.add('animate');
+                    }
+                });
+            }
+            
+            // Run animation on scroll
+            window.addEventListener('scroll', animateOnScroll);
+            
+            // Run animation on page load
+            animateOnScroll();
+        });
+    </script>
 </body>
 
 </html>

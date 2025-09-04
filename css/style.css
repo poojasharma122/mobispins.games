@@ -1379,6 +1379,75 @@ ul.list-unstyled li a:hover {
     transition-delay: 0.8s;
 }
 
+/* Additional Animation Types */
+.scroll-fade-left {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.scroll-fade-left.animate {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.scroll-fade-right {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.scroll-fade-right.animate {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.scroll-scale {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.scroll-scale.animate {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.scroll-rotate {
+    opacity: 0;
+    transform: rotate(-5deg) translateY(30px);
+    transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.scroll-rotate.animate {
+    opacity: 1;
+    transform: rotate(0deg) translateY(0);
+}
+
+/* Game Card Animations */
+.game-card {
+    opacity: 0;
+    transform: translateY(50px) scale(0.9);
+    transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.game-card.animate {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+/* Section Animations */
+.section-animate {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.section-animate.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 /* Contact Form Animation */
 .contact-form-wrapper {
     opacity: 0;
