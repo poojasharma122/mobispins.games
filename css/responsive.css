@@ -88,6 +88,7 @@
         z-index: 9999;
         padding-top: 60px;
         max-width: 300px;
+        align-items: flex-start;
     }
 
     .menu-list.open {
@@ -174,7 +175,7 @@
     }
 
     .logo img {
-        max-width: 150px;
+        max-width: 85px;
     }
 
     .bnr-content h1 {

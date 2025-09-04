@@ -35,6 +35,14 @@
                                     <li><a href="about-us">About us </a></li>
                                     <li><a href="contact-us">Contact us</a></li>
                                 </ul>
+                                <div class="header-buttons">
+                                    <button class="btn-login" data-bs-toggle="modal" data-bs-target="#loginModal">
+                                        Login
+                                    </button>
+                                    <button class="btn-signup" data-bs-toggle="modal" data-bs-target="#registerModal">
+                                        Sign Up
+                                    </button>
+                                </div>
                             </div>
                             <div class="menu-icon">
                                 <span onclick="openNav()">
@@ -204,6 +212,84 @@
         </div>
     </footer>
     <!-- footer -->
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered"> <!-- Centered -->
+            <div class="modal-content">
+
+                <div class="popup-logo">
+                    <img src="images/logo.png" alt="logo">
+                </div>
+
+
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="loginForm" novalidate>
+                        <div class="mb-3">
+                            <label for="loginEmail" class="form-label">Email address <span class="text-danger">*</span></label>
+                            <input type="email" class="form-control" id="loginEmail" name="email" placeholder="Enter email" required>
+                            <div class="invalid-feedback">
+                                Please enter a valid email address.
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="loginPassword" class="form-label">Password <span class="text-danger">*</span></label>
+                            <input type="password" class="form-control" id="loginPassword" name="password" placeholder="Password" required minlength="6">
+                            <div class="invalid-feedback">
+                                Password must be at least 6 characters long.
+                            </div>
+                        </div>
+                        <button type="submit" class="w-100 btn-cst">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+    <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered"> <!-- Centered -->
+            <div class="modal-content">
+                 <div class="popup-logo">
+                    <img src="images/logo.png" alt="logo">
+                </div>
+                <div class="modal-header">
+                    <h5 class="modal-title" id="registerModalLabel">Register</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="registerForm" novalidate>
+                        <div class="mb-3">
+                            <label for="regName" class="form-label">Full Name <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="regName" name="fullName" placeholder="Enter full name" required minlength="2">
+                            <div class="invalid-feedback">
+                                Please enter your full name (at least 2 characters).
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="regEmail" class="form-label">Email address <span class="text-danger">*</span></label>
+                            <input type="email" class="form-control" id="regEmail" name="email" placeholder="Enter email" required>
+                            <div class="invalid-feedback">
+                                Please enter a valid email address.
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="regPassword" class="form-label">Password <span class="text-danger">*</span></label>
+                            <input type="password" class="form-control" id="regPassword" name="password" placeholder="Password" required minlength="8">
+                            <div class="invalid-feedback">
+                                Password must be at least 8 characters long.
+                            </div>
+                        </div>
+                        <button type="submit" class="w-100 btn-cst">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/custom.js"></script>
