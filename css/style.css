@@ -195,6 +195,18 @@ span.menu-close {
     }
 }
 
+/* Text entrance animations */
+@keyframes slideInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
 .bnr-inr .row {
     align-items: center;
 }
@@ -1148,6 +1160,10 @@ canvas {
 }
 
 /* Button Hover Effects */
+.bnr-btn {
+    animation: slideInLeft 1s ease-out 0.6s both;
+}
+
 .bnr-btn button {
     transition: all 0.3s ease;
     position: relative;
