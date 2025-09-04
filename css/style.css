@@ -93,11 +93,11 @@ header.is-sticky {
 }
 
 .menu-list ul li a.active {
-    color: #0066CC;
+    color: #21C4D3;
 }
 
 .menu-list ul li a:hover {
-    color: #0066CC;
+    color: #21C4D3;
 }
 
 .main-content {
@@ -163,7 +163,7 @@ span.menu-close {
 /* Banner css */
 .hero-bnr {
     padding: 60px 0;
-    background: linear-gradient(180deg, #0B1D3A 0%, #0066CC 100%);
+    background: linear-gradient(180deg, #21C4D3 0%, #189AA7 100%);
     position: relative;
     overflow: hidden;
 }
@@ -177,9 +177,9 @@ span.menu-close {
     right: 0;
     bottom: 0;
     background-image: 
-        radial-gradient(circle at 20% 20%, rgba(0, 102, 204, 0.1) 0%, transparent 50%),
-        radial-gradient(circle at 80% 80%, rgba(0, 102, 204, 0.1) 0%, transparent 50%),
-        radial-gradient(circle at 40% 60%, rgba(0, 102, 204, 0.05) 0%, transparent 50%);
+        radial-gradient(circle at 20% 20%, rgba(33, 196, 211, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(33, 196, 211, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 40% 60%, rgba(33, 196, 211, 0.05) 0%, transparent 50%);
     animation: backgroundFloat 8s ease-in-out infinite;
     pointer-events: none;
 }
@@ -255,10 +255,10 @@ span.menu-close {
 /* Pulsing glow effect */
 @keyframes pulseGlow {
     0%, 100% {
-        filter: brightness(1) drop-shadow(0 0 5px rgba(0, 102, 204, 0.3));
+        filter: brightness(1) drop-shadow(0 0 5px rgba(33, 196, 211, 0.3));
     }
     50% {
-        filter: brightness(1.1) drop-shadow(0 0 15px rgba(0, 102, 204, 0.6));
+        filter: brightness(1.1) drop-shadow(0 0 15px rgba(33, 196, 211, 0.6));
     }
 }
 
@@ -289,7 +289,7 @@ span.menu-close {
     transition: all 0.3s ease;
 }
 .footer-widget.social .btn i {
-    color: #0066CC;
+    color: #21C4D3;
 }
 
 .footer-widget.social .btn:hover i {
@@ -331,8 +331,8 @@ span.menu-close {
     right: 0;
     bottom: 0;
     background-image: 
-        radial-gradient(circle at 25% 25%, rgba(0, 102, 204, 0.05) 0%, transparent 50%),
-        radial-gradient(circle at 75% 75%, rgba(0, 102, 204, 0.05) 0%, transparent 50%);
+        radial-gradient(circle at 25% 25%, rgba(33, 196, 211, 0.05) 0%, transparent 50%),
+        radial-gradient(circle at 75% 75%, rgba(33, 196, 211, 0.05) 0%, transparent 50%);
     animation: backgroundFloatSpin 12s ease-in-out infinite;
     pointer-events: none;
 }
@@ -359,7 +359,7 @@ span.menu-close {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 20px;
-    color: #0066CC;
+    color: #21C4D3;
     animation: fadeInUp 1s ease-out;
 }
 
@@ -401,7 +401,7 @@ span.menu-close {
     top: 12px;
     width: 8px;
     height: 8px;
-    background-color: #0066CC;
+    background-color: #21C4D3;
     border-radius: 50%;
 }
 
@@ -412,14 +412,14 @@ span.menu-close {
 .games-content h2 {
     font-size: 24px;
     padding: 20px 0 0;
-    color: #0066CC;
+    color: #21C4D3;
     font-weight: 600;
 }
 
 /*  */
 .earn-stripes {
     padding: 60px 0;
-    background: linear-gradient(180deg, #0B1D3A 0%, #0066CC 100%);
+    background: linear-gradient(180deg, #21C4D3 0%, #189AA7 100%);
     position: relative;
     overflow: hidden;
 }
@@ -465,8 +465,8 @@ span.menu-close {
     right: 0;
     bottom: 0;
     background-image: 
-        radial-gradient(circle at 30% 20%, rgba(0, 102, 204, 0.03) 0%, transparent 50%),
-        radial-gradient(circle at 70% 80%, rgba(0, 102, 204, 0.03) 0%, transparent 50%);
+        radial-gradient(circle at 30% 20%, rgba(33, 196, 211, 0.03) 0%, transparent 50%),
+        radial-gradient(circle at 70% 80%, rgba(33, 196, 211, 0.03) 0%, transparent 50%);
     animation: backgroundFloatBonuses 18s ease-in-out infinite;
     pointer-events: none;
 }
@@ -599,12 +599,12 @@ span.menu-close {
 .bigger-text h2 {
     font-size: 40px;
     font-weight: 700;
-    color: #0066CC;
+    color: #21C4D3;
 }
 
 .play-anywhere {
     padding: 60px 0;
-    background: linear-gradient(180deg, #0B1D3A 0%, #0066CC 100%);
+    background: linear-gradient(180deg, #21C4D3 0%, #189AA7 100%);
     position: relative;
     overflow: hidden;
 }
@@ -618,9 +618,9 @@ span.menu-close {
     right: 0;
     bottom: 0;
     background-image: 
-        radial-gradient(circle at 15% 25%, rgba(0, 102, 204, 0.1) 0%, transparent 50%),
-        radial-gradient(circle at 85% 75%, rgba(0, 102, 204, 0.1) 0%, transparent 50%),
-        radial-gradient(circle at 50% 50%, rgba(0, 102, 204, 0.05) 0%, transparent 50%);
+        radial-gradient(circle at 15% 25%, rgba(33, 196, 211, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 85% 75%, rgba(33, 196, 211, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 50% 50%, rgba(33, 196, 211, 0.05) 0%, transparent 50%);
     animation: backgroundFloatPlayAnywhere 10s ease-in-out infinite;
     pointer-events: none;
 }
@@ -672,10 +672,10 @@ span.menu-close {
 /* Pulsing glow effect */
 @keyframes pulsePlayAnywhere {
     0%, 100% {
-        filter: brightness(1) drop-shadow(0 0 10px rgba(0, 102, 204, 0.3));
+        filter: brightness(1) drop-shadow(0 0 10px rgba(33, 196, 211, 0.3));
     }
     50% {
-        filter: brightness(1.1) drop-shadow(0 0 20px rgba(0, 102, 204, 0.6));
+        filter: brightness(1.1) drop-shadow(0 0 20px rgba(33, 196, 211, 0.6));
     }
 }
 
@@ -695,7 +695,7 @@ span.menu-close {
     right: 10%;
     width: 60px;
     height: 60px;
-    background: radial-gradient(circle, rgba(0, 102, 204, 0.3) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(33, 196, 211, 0.3) 0%, transparent 70%);
     border-radius: 50%;
     animation: floatElement 8s ease-in-out infinite;
     pointer-events: none;
@@ -719,7 +719,7 @@ span.menu-close {
     left: 15%;
     width: 40px;
     height: 40px;
-    background: radial-gradient(circle, rgba(0, 102, 204, 0.2) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(33, 196, 211, 0.2) 0%, transparent 70%);
     border-radius: 50%;
     animation: floatElement 6s ease-in-out infinite 1s;
     pointer-events: none;
@@ -731,7 +731,7 @@ span.menu-close {
     right: 20%;
     width: 50px;
     height: 50px;
-    background: radial-gradient(circle, rgba(0, 102, 204, 0.25) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(33, 196, 211, 0.25) 0%, transparent 70%);
     border-radius: 50%;
     animation: floatElement 7s ease-in-out infinite 2s;
     pointer-events: none;
@@ -783,8 +783,8 @@ span.menu-close {
     right: 0;
     bottom: 0;
     background-image: 
-        radial-gradient(circle at 40% 40%, rgba(0, 102, 204, 0.03) 0%, transparent 50%),
-        radial-gradient(circle at 60% 60%, rgba(0, 102, 204, 0.03) 0%, transparent 50%);
+        radial-gradient(circle at 40% 40%, rgba(33, 196, 211, 0.03) 0%, transparent 50%),
+        radial-gradient(circle at 60% 60%, rgba(33, 196, 211, 0.03) 0%, transparent 50%);
     animation: backgroundFloatSecure 20s ease-in-out infinite;
     pointer-events: none;
 }
@@ -828,14 +828,14 @@ span.menu-close {
 .secure-text h2 {
     font-size: 40px;
     font-weight: 700;
-    color: #0066CC;
+    color: #21C4D3;
     margin-bottom: 20px;
 }
 
 .newsletter-content h2 {
     font-size: 40px;
     font-weight: 700;
-    color: #0066CC;
+    color: #21C4D3;
     margin-bottom: 20px;
 }
 
@@ -858,7 +858,7 @@ span.menu-close {
 
 .newsletter-section {
     padding: 60px 0;
-    background: linear-gradient(180deg, #0B1D3A 0%, #0066CC 100%);
+    background: linear-gradient(180deg, #21C4D3 0%, #189AA7 100%);
     position: relative;
     overflow: hidden;
 }
@@ -915,7 +915,7 @@ span.menu-close {
 .newsletter-content a {
     position: relative;
     overflow: hidden;
-    border: 1px solid#0066CC;
+    border: 1px solid#21C4D3;
     color: #FAFAFA;
     display: inline-flex;
     justify-content: center;
@@ -926,13 +926,13 @@ span.menu-close {
     text-decoration: none;
     border-radius: 0;
     cursor: pointer;
-    background: #0066CC;
+    background: #21C4D3;
     border-radius: 9px;
 }
 
 .newsletter-content a:hover {
-    background-color: #0B1D3A;
-    border: 1px solid #0B1D3A;
+    background-color: #189AA7;
+    border: 1px solid #189AA7;
 }
 
 footer.footer {
@@ -969,7 +969,7 @@ ul.list-unstyled li a {
 }
 
 ul.list-unstyled li a:hover {
-    color: #0066CC;
+    color: #21C4D3;
     transform: translateX(6px);
 }
 
@@ -979,15 +979,15 @@ ul.list-unstyled li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #0066CC;
-    color: #0066CC;
+    border: 1px solid #21C4D3;
+    color: #21C4D3;
     transition: all 0.3s;
 }
 
 .footer-widget.social a:hover {
-    background-color: #0066CC;
+    background-color: #21C4D3;
     color: #fff;
-    border: 1px solid#0066CC;
+    border: 1px solid#21C4D3;
 }
 
 .bottom-line {
@@ -1008,7 +1008,7 @@ ul.list-unstyled li a:hover {
 }
 
 .bottom-line p a {
-    color: #0066CC;
+    color: #21C4D3;
 }
 
 .footer_SSlLink {
@@ -1070,7 +1070,7 @@ ul.list-unstyled li a:hover {
 
 .terms-content {
     padding: 60px 0;
-    background: linear-gradient(180deg, #0B1D3A 0%, #0066CC 100%);
+    background: linear-gradient(180deg, #21C4D3 0%, #189AA7 100%);
 
 }
 
@@ -1078,7 +1078,7 @@ ul.list-unstyled li a:hover {
     font-size: 22px;
     margin-bottom: 0.9375rem;
     line-height: 1.4;
-    color: #0066CC;
+    color: #21C4D3;
     font-weight: 700;
 }
 
@@ -1105,7 +1105,7 @@ ul.list-unstyled li a:hover {
     top: 10px;
     width: 8px;
     height: 8px;
-    background-color: #0066CC;
+    background-color: #21C4D3;
     border-radius: 50%;
 }
 
@@ -1124,8 +1124,8 @@ ul.list-unstyled li a:hover {
     right: 0;
     bottom: 0;
     background-image: 
-        radial-gradient(circle at 20% 20%, rgba(0, 102, 204, 0.02) 0%, transparent 50%),
-        radial-gradient(circle at 80% 80%, rgba(0, 102, 204, 0.02) 0%, transparent 50%);
+        radial-gradient(circle at 20% 20%, rgba(33, 196, 211, 0.02) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(33, 196, 211, 0.02) 0%, transparent 50%);
     animation: backgroundFloatAbout 22s ease-in-out infinite;
     pointer-events: none;
 }
@@ -1145,7 +1145,7 @@ ul.list-unstyled li a:hover {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 20px;
-    color: #0066CC;
+    color: #21C4D3;
     animation: slideInLeft 1s ease-out;
 }
 
@@ -1198,8 +1198,8 @@ ul.list-unstyled li a:hover {
     right: 0;
     bottom: 0;
     background-image: 
-        radial-gradient(circle at 30% 30%, rgba(0, 102, 204, 0.05) 0%, transparent 50%),
-        radial-gradient(circle at 70% 70%, rgba(0, 102, 204, 0.05) 0%, transparent 50%);
+        radial-gradient(circle at 30% 30%, rgba(33, 196, 211, 0.05) 0%, transparent 50%),
+        radial-gradient(circle at 70% 70%, rgba(33, 196, 211, 0.05) 0%, transparent 50%);
     animation: backgroundFloatAboutSec 25s ease-in-out infinite;
     pointer-events: none;
 }
@@ -1256,9 +1256,9 @@ ul.list-unstyled li a:hover {
 .contact-title {
     font-size: 52px;
     font-weight: 800;
-    color: #0066CC;
+    color: #21C4D3;
     margin-bottom: 25px;
-    text-shadow: 0 2px 4px rgba(0, 102, 204, 0.1);
+    text-shadow: 0 2px 4px rgba(33, 196, 211, 0.1);
     letter-spacing: -1px;
 }
 
@@ -1283,7 +1283,7 @@ ul.list-unstyled li a:hover {
     border-radius: 25px;
     padding: 60px;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
-    border: 1px solid rgba(0, 102, 204, 0.05);
+    border: 1px solid rgba(33, 196, 211, 0.05);
     position: relative;
     overflow: hidden;
 }
@@ -1295,7 +1295,7 @@ ul.list-unstyled li a:hover {
     left: 0;
     right: 0;
     height: 4px;
-    background: linear-gradient(90deg, #0066CC, #004499, #0066CC);
+    background: linear-gradient(90deg, #21C4D3, #189AA7, #21C4D3);
 }
 
 /* Form Grid */
@@ -1329,7 +1329,7 @@ ul.list-unstyled li a:hover {
 }
 
 .form-label i {
-    color: #0066CC;
+    color: #21C4D3;
     font-size: 18px;
     width: 20px;
     text-align: center;
@@ -1358,8 +1358,8 @@ input, textarea {
 
 input:focus, textarea:focus {
     outline: none;
-    border-color: #0066CC;
-    box-shadow: 0 0 0 4px rgba(0, 102, 204, 0.1), 0 8px 25px rgba(0, 102, 204, 0.08);
+    border-color: #21C4D3;
+    box-shadow: 0 0 0 4px rgba(33, 196, 211, 0.1), 0 8px 25px rgba(33, 196, 211, 0.08);
     transform: translateY(-2px);
 }
 
@@ -1381,7 +1381,7 @@ textarea {
 }
 
 .btn-submit {
-    background: linear-gradient(135deg, #0066CC 0%, #004499 100%);
+    background: linear-gradient(135deg, #21C4D3 0%, #189AA7 100%);
     color: white;
     border: none;
     padding: 20px 60px;
@@ -1394,7 +1394,7 @@ textarea {
     overflow: hidden;
     text-transform: uppercase;
     letter-spacing: 1px;
-    box-shadow: 0 10px 30px rgba(0, 102, 204, 0.3);
+    box-shadow: 0 10px 30px rgba(33, 196, 211, 0.3);
     min-width: 200px;
 }
 
@@ -1415,8 +1415,8 @@ textarea {
 
 .btn-submit:hover {
     transform: translateY(-3px);
-    box-shadow: 0 15px 40px rgba(0, 102, 204, 0.4);
-    background: linear-gradient(135deg, #004499 0%, #0066CC 100%);
+    box-shadow: 0 15px 40px rgba(33, 196, 211, 0.4);
+    background: linear-gradient(135deg, #189AA7 0%, #21C4D3 100%);
 }
 
 .btn-submit:active {
@@ -1456,8 +1456,8 @@ textarea {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .contact-us {
-        padding: 60px 0;
+.contact-us {
+    padding: 60px 0;
         min-height: auto;
     }
     
@@ -1544,7 +1544,7 @@ textarea {
 .submit input {
     position: relative;
     overflow: hidden;
-    border: 1px solid#0066CC;
+    border: 1px solid#21C4D3;
     color: #FAFAFA;
     display: inline-flex;
     justify-content: center;
@@ -1555,20 +1555,20 @@ textarea {
     text-decoration: none;
     border-radius: 0;
     cursor: pointer;
-    background: #0066CC;
+    background: #21C4D3;
     border-radius: 9px;
 }
 
 .submit input:hover {
-    background-color: #0B1D3A;
-    border: 1px solid #0B1D3A;
+    background-color: #189AA7;
+    border: 1px solid #189AA7;
 }
 
 .bnr-btn button,
 .btn-cst {
     position: relative;
     overflow: hidden;
-    border: 1px solid#0066CC;
+    border: 1px solid#21C4D3;
     color: #FAFAFA;
     display: inline-flex;
     justify-content: center;
@@ -1579,14 +1579,14 @@ textarea {
     text-decoration: none;
     border-radius: 0;
     cursor: pointer;
-    background: #0066CC;
+    background: #21C4D3;
     border-radius: 9px;
 }
 
 .bnr-btn button:hover,
 .btn-cst:hover {
-    background-color: #0B1D3A;
-    border: 1px solid #0B1D3A;
+    background-color: #189AA7;
+    border: 1px solid #189AA7;
 }
 
 .games-cst .section__heading {
@@ -1601,7 +1601,7 @@ textarea {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 20px;
-    color: #0066CC;
+    color: #21C4D3;
 }
 
 .contact-us-innr p {
@@ -1637,7 +1637,7 @@ textarea {
 }
 
 .games-img {
-    background: #007d8c57;
+    background: #21c4d357;
     border-radius: 16px;
     padding: 10px;
 }
@@ -1650,7 +1650,7 @@ textarea {
 
 section.bonanaza {
     padding: 60px 0;
-    background: linear-gradient(180deg, #0B1D3A 0%, #0066CC 100%);
+    background: linear-gradient(180deg, #21C4D3 0%, #189AA7 100%);
 }
 
 .bonanaza-inner h2 {
@@ -1673,7 +1673,7 @@ canvas {
 }
 
 .popup-logo {
-    background: #0066cc;
+    background: #21C4D3;
     padding: 20px;
     border-radius: 6px  6px 0 0;
 }
@@ -1751,13 +1751,13 @@ canvas {
 /* Form label styling */
 .form-label {
     font-weight: 500;
-    margin-bottom: 0.5rem;
+    margin-bottom: 3px;
     color: #333;
 }
 
 /* Enhanced button styling for forms */
 .btn-cst {
-    background: linear-gradient(135deg, #0066CC 0%, #0B1D3A 100%);
+    background: linear-gradient(135deg, #21C4D3 0%, #189AA7 100%);
     border: none;
     color: white;
     padding: 12px 24px;
@@ -1767,9 +1767,9 @@ canvas {
 }
 
 .btn-cst:hover {
-    background: linear-gradient(135deg, #0B1D3A 0%, #0066CC 100%);
+    background: linear-gradient(135deg, #21C4D3 0%, #189AA7 100%);
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 102, 204, 0.3);
+    box-shadow: 0 4px 12px rgba(33, 196, 211, 0.3);
 }
 
 .btn-cst:disabled {
@@ -1787,14 +1787,14 @@ canvas {
 }
 
 .menu-list ul li a:hover {
-    color: #0066CC !important;
-    background-color: rgba(0, 102, 204, 0.1);
+    color: #21C4D3 !important;
+    background-color: rgba(33, 196, 211, 0.1);
     transform: translateY(-2px);
 }
 
 .menu-list ul li a.active {
-    color: #0066CC !important;
-    background-color: rgba(0, 102, 204, 0.15);
+    color: #21C4D3 !important;
+    background-color: rgba(33, 196, 211, 0.15);
 }
 
 .menu-list ul li a::after {
@@ -1804,7 +1804,7 @@ canvas {
     height: 2px;
     bottom: -2px;
     left: 50%;
-    background: linear-gradient(90deg, #0066CC, #0B1D3A);
+    background: linear-gradient(90deg, #21C4D3, #189AA7);
     transition: all 0.3s ease;
     transform: translateX(-50%);
 }
@@ -1889,7 +1889,7 @@ canvas {
 
 .games-outer-box:hover {
     transform: translateY(-10px);
-    box-shadow: 0 20px 40px rgba(0, 102, 204, 0.3);
+    box-shadow: 0 20px 40px rgba(33, 196, 211, 0.3);
 }
 
 .games-outer-box:hover .games-img {
@@ -1904,7 +1904,7 @@ canvas {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, rgba(0, 102, 204, 0.1), rgba(11, 29, 58, 0.1));
+    background: linear-gradient(135deg, rgba(33, 196, 211, 0.1), rgba(11, 29, 58, 0.1));
     opacity: 0;
     transition: opacity 0.3s ease;
     z-index: 1;
@@ -1927,7 +1927,7 @@ canvas {
 
 .logo a:hover {
     transform: scale(1.05);
-    filter: drop-shadow(0 4px 8px rgba(0, 102, 204, 0.3));
+    filter: drop-shadow(0 4px 8px rgba(33, 196, 211, 0.3));
 }
 
 /* Button Hover Effects */
@@ -1958,7 +1958,7 @@ canvas {
 
 .bnr-btn button:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 25px rgba(0, 102, 204, 0.4);
+    box-shadow: 0 8px 25px rgba(33, 196, 211, 0.4);
 }
 
 /* Footer Links Hover Effects */
@@ -1969,7 +1969,7 @@ canvas {
 }
 
 .footer-widget ul li a:hover {
-    color: #0066CC !important;
+    color: #21C4D3 !important;
     padding-left: 10px;
 }
 
@@ -1979,7 +1979,7 @@ canvas {
     left: -20px;
     opacity: 0;
     transition: all 0.3s ease;
-    color: #0066CC;
+    color: #21C4D3;
 }
 
 .footer-widget ul li a:hover::before {
@@ -1996,9 +1996,9 @@ canvas {
 
 .footer-widget.social .btn:hover {
     transform: translateY(-3px) scale(1.1);
-    background-color: #0066CC !important;
-    border-color: #0066CC !important;
-    box-shadow: 0 8px 20px rgba(0, 102, 204, 0.4);
+    background-color: #21C4D3 !important;
+    border-color: #21C4D3 !important;
+    box-shadow: 0 8px 20px rgba(33, 196, 211, 0.4);
 }
 
 .footer-widget.social .btn::before {
@@ -2044,7 +2044,7 @@ canvas {
 
 .newsletter-content a:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 25px rgba(0, 102, 204, 0.4);
+    box-shadow: 0 8px 25px rgba(33, 196, 211, 0.4);
 }
 
 /* Menu Icon Hover Effect */
@@ -2056,7 +2056,7 @@ canvas {
 }
 
 .menu-icon span:hover {
-    background-color: rgba(0, 102, 204, 0.1);
+    background-color: rgba(33, 196, 211, 0.1);
     transform: scale(1.1);
 }
 
@@ -2082,15 +2082,15 @@ canvas {
 
 /* Form Input Hover Effects */
 .form-control:hover {
-    border-color: #0066CC;
-    box-shadow: 0 0 0 0.2rem rgba(0, 102, 204, 0.1);
+    border-color: #21C4D3;
+    box-shadow: 0 0 0 0.2rem rgba(33, 196, 211, 0.1);
 }
 
 /* Contact Form Input Hover */
 .input_wrapper input:hover,
 .input_wrapper textarea:hover {
-    border-color: #0066CC;
-    box-shadow: 0 0 0 0.2rem rgba(0, 102, 204, 0.1);
+    border-color: #21C4D3;
+    box-shadow: 0 0 0 0.2rem rgba(33, 196, 211, 0.1);
 }
 
 /* Section Cards Hover Effects */
@@ -2103,7 +2103,7 @@ canvas {
 .about-card:hover,
 .bonus-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 15px 30px rgba(0, 102, 204, 0.2);
+    box-shadow: 0 15px 30px rgba(33, 196, 211, 0.2);
 }
 
 .about-card:hover .about-icon,
@@ -2113,7 +2113,7 @@ canvas {
 
 /* Typing Effect Styles */
 .typing-cursor {
-    color: #0066CC;
+    color: #21C4D3;
     font-weight: 700;
     animation: blink 1s infinite;
     margin-left: 2px;
