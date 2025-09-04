@@ -1896,7 +1896,7 @@ canvas {
 }
 
 .menu-list ul li a:hover {
-    color: #21C4D3 !important;
+    color: #19a0ae !important;
     background-color: rgba(33, 196, 211, 0.1);
     transform: translateY(-2px);
 }
