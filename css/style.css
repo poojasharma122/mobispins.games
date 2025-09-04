@@ -131,6 +131,32 @@ span.menu-close {
     visibility: visible;
 }
 
+.footer-widget ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.social>div {
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* header end here   */
 
 /* Banner css */
@@ -800,7 +826,13 @@ section.bonanaza {
     text-transform: uppercase;
     margin-bottom: 50px;
 }
+
 .bonanaza-video {
     max-width: 1000px;
     margin: 0 auto;
+}
+
+canvas {
+    width: 100% !important;
+    left: 0 !important;
 }
