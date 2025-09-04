@@ -164,7 +164,35 @@ span.menu-close {
 .hero-bnr {
     padding: 60px 0;
     background: linear-gradient(180deg, #0B1D3A 0%, #0066CC 100%);
+    position: relative;
+    overflow: hidden;
+}
 
+/* Animated background particles effect */
+.hero-bnr::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: 
+        radial-gradient(circle at 20% 20%, rgba(0, 102, 204, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(0, 102, 204, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 40% 60%, rgba(0, 102, 204, 0.05) 0%, transparent 50%);
+    animation: backgroundFloat 8s ease-in-out infinite;
+    pointer-events: none;
+}
+
+@keyframes backgroundFloat {
+    0%, 100% {
+        transform: translateY(0px) scale(1);
+        opacity: 0.3;
+    }
+    50% {
+        transform: translateY(-20px) scale(1.1);
+        opacity: 0.6;
+    }
 }
 
 .bnr-inr .row {
@@ -173,6 +201,88 @@ span.menu-close {
 
 .bnr-img img {
     width: 100%;
+    animation: floatBanner 6s ease-in-out infinite;
+}
+
+/* Banner Image Animations */
+@keyframes floatBanner {
+    0%, 100% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    25% {
+        transform: translateY(-10px) rotate(1deg);
+    }
+    50% {
+        transform: translateY(-5px) rotate(0deg);
+    }
+    75% {
+        transform: translateY(-15px) rotate(-1deg);
+    }
+}
+
+/* Additional floating animation for more dynamic effect */
+@keyframes floatUpDown {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+/* Rotating animation for casino elements */
+@keyframes rotateSlow {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Pulsing glow effect */
+@keyframes pulseGlow {
+    0%, 100% {
+        filter: brightness(1) drop-shadow(0 0 5px rgba(0, 102, 204, 0.3));
+    }
+    50% {
+        filter: brightness(1.1) drop-shadow(0 0 15px rgba(0, 102, 204, 0.6));
+    }
+}
+
+/* Shake animation for excitement */
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        transform: translateX(-2px);
+    }
+    20%, 40%, 60%, 80% {
+        transform: translateX(2px);
+    }
+}
+
+/* Apply multiple animations to banner image */
+.bnr-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.bnr-img img {
+    width: 100%;
+    animation: 
+        floatBanner 6s ease-in-out infinite,
+        pulseGlow 4s ease-in-out infinite;
+    transition: all 0.3s ease;
+}
+
+.bnr-img:hover img {
+    animation: 
+        floatBanner 6s ease-in-out infinite,
+        pulseGlow 2s ease-in-out infinite,
+        shake 0.5s ease-in-out;
+    transform: scale(1.02);
 }
 
 .bnr-content h1 {
@@ -181,6 +291,7 @@ span.menu-close {
     font-weight: 700;
     color: #fff;
     margin-bottom: 25px;
+    animation: slideInLeft 1s ease-out;
 }
 
 .bnr-content p {
@@ -188,6 +299,7 @@ span.menu-close {
     line-height: 30px;
     color: #fff;
     font-weight: 400;
+    animation: slideInLeft 1s ease-out 0.3s both;
 }
 
 /*  */
