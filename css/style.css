@@ -800,3 +800,7 @@ section.bonanaza {
     text-transform: uppercase;
     margin-bottom: 50px;
 }
+.bonanaza-video {
+    max-width: 900px;
+    margin: 0 auto;
+}
