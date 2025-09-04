@@ -1303,7 +1303,7 @@ ul.list-unstyled li a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 
 /* Form Groups */
@@ -1611,9 +1611,9 @@ textarea {
     font-weight: 400;
     margin-bottom: 30px;
 }
-
 .about-mobispins-img img {
     height: 474px;
+    object-fit: cover;
 }
 
 .gaware {
