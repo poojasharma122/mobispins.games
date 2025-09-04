@@ -1033,7 +1033,9 @@ ul.list-unstyled li a:hover {
     position: relative;
     z-index: 1;
 }
-
+.menu-icon span i {
+    color: #fff;
+}
 .inr-bnr-content {
     text-align: center;
 }

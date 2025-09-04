@@ -106,7 +106,9 @@
         font-weight: 400;
         color: #fff;
     }
-
+    span.menu-close i {
+        color: #fff;
+    }
     span.menu-close {
         padding: 6px 6px;
         display: block;
@@ -116,7 +118,7 @@
         text-align: center;
         box-shadow: 0 0 25px rgb(0 0 0 / .1);
         line-height: 32px;
-        background: #1698BB;
+        background: #0066cc;
         color: #fff;
         position: absolute;
         right: 7px;
