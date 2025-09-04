@@ -134,7 +134,8 @@ span.menu-close {
 .footer-widget ul {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 0 20px;
+    flex-wrap: wrap;
 }
 
 .footer-content {
@@ -516,7 +517,7 @@ ul.list-unstyled li a:hover {
 
 .bottom-line p {
     color: #fff;
-    font-size: 18px;
+    font-size: 14px !important;
     margin: 0;
 }
 
@@ -791,12 +792,12 @@ ul.list-unstyled li a:hover {
 }
 
 .gaware img {
-    width: auto;
+    width: 90px;
     margin-bottom: 20px;
 }
 
 .gaware p {
-    font-size: 17px;
+    font-size: 14px !important;
     line-height: 30px;
     color: #fff;
     font-weight: 400;
