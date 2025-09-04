@@ -1557,8 +1557,8 @@ textarea {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-.contact-us {
-    padding: 60px 0;
+    .contact-us {
+        padding: 60px 0;
         min-height: auto;
     }
 
@@ -1776,7 +1776,7 @@ section.bonanaza {
 canvas {
     width: 100% !important;
     left: 0 !important;
-    
+
 }
 
 .popup-logo {
@@ -2490,7 +2490,7 @@ canvas {
         padding: 8px 16px;
         font-size: 13px;
     }
-    
+
     .account-dropdown .dropdown-menu {
         min-width: 200px;
     }
@@ -2500,21 +2500,24 @@ canvas {
     .header-actions {
         gap: 10px;
     }
-    
+
     /* Hide account dropdown in header on mobile */
     .header-actions .account-dropdown {
         display: none;
     }
-    
+
     /* Show mobile account section in sidebar on mobile */
     .mobile-account-section {
         display: block;
-        margin-top: 30px;
-        padding-top: 20px;
-        border-top: 1px solid rgba(255, 255, 255, 0.1);
+
         margin-left: 20px;
     }
-    
+
+    .bigger-text {
+        margin-bottom: 40px;
+
+    }
+
     .mobile-account-section .btn-account {
         width: 100%;
         justify-content: center;
@@ -2524,13 +2527,13 @@ canvas {
         border: 1px solid #21C4D3;
         color: #ffffff;
     }
-    
+
     .mobile-account-section .btn-account:hover {
         background: linear-gradient(135deg, #189AA7, #21C4D3);
         transform: translateY(-2px);
         box-shadow: 0 8px 25px rgba(33, 196, 211, 0.3);
     }
-    
+
     .mobile-account-section .account-dropdown .dropdown-menu {
         position: static;
         box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
@@ -2544,17 +2547,17 @@ canvas {
         min-width: 100%;
         pointer-events: auto;
     }
-    
+
     .mobile-account-section .account-dropdown .dropdown-menu.show {
         display: block;
         animation: slideDown 0.3s ease;
     }
-    
+
     .mobile-account-section .account-dropdown .dropdown-item {
         padding: 12px 20px;
         font-size: 14px;
     }
-    
+
     .mobile-account-section .account-dropdown .dropdown-item:hover {
         transform: translateX(5px);
         padding-left: 25px;
@@ -2566,11 +2569,11 @@ canvas {
         padding: 10px 16px;
         font-size: 13px;
     }
-    
+
     .btn-account span {
         font-size: 12px;
     }
-    
+
     .account-dropdown .dropdown-item {
         padding: 10px 16px;
         font-size: 13px;
@@ -2582,11 +2585,11 @@ canvas {
         padding: 8px 14px;
         gap: 6px;
     }
-    
+
     .btn-account i {
         font-size: 14px;
     }
-    
+
     .btn-account .fa-chevron-down {
         font-size: 10px;
     }
@@ -2598,6 +2601,7 @@ canvas {
         opacity: 0;
         transform: translateY(-10px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
