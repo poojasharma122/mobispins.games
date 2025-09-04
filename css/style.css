@@ -1586,6 +1586,9 @@ textarea {
     .form-group {
         margin-bottom: 25px;
     }
+    .form-group:last-of-type {
+        margin-bottom: 25px;
+    }
 
     .form-label {
         font-size: 15px;
