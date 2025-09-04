@@ -96,6 +96,15 @@
         transition: width 0.3s ease;
     }
 
+    .hero-bnr {
+        padding: 120px 0 100px 0;
+
+    }
+
+    section.bonanaza {
+        padding: 100px 0 60px;
+    }
+
     .menu-list ul {
         flex-direction: column;
         padding-left: 20px;
@@ -107,9 +116,11 @@
         font-weight: 400;
         color: #fff;
     }
+
     span.menu-close i {
         color: #fff;
     }
+
     span.menu-close {
         padding: 6px 6px;
         display: block;
