@@ -170,7 +170,7 @@
     }
 
     .bonanaza-inner h2 {
-
+        margin-bottom: 20px;
         font-size: 1.25rem;
 
     }
@@ -192,5 +192,11 @@
     .bnr-content h1 {
         font-size: 30px;
         line-height: 40px;
+    }
+
+    .hero-bnr {
+
+        background-position: center;
+
     }
 }

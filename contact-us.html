@@ -99,8 +99,8 @@
     <section class="contact-us">
         <div class="container">
             <div class="contact-header text-center">
-                <h2 class="contact-title">📞 Get in Touch</h2>
-                <p class="contact-subtitle">Got a question, some feedback, or just want to say hello? The Mobispins team is always here to help. Reach out anytime and we'll get back to you as soon as possible — because in this family, every player counts.</p>
+                <h2 class="contact-title scroll-animate">📞 Get in Touch</h2>
+                <p class="contact-subtitle scroll-animate scroll-animate-delay-1">Got a question, some feedback, or just want to say hello? The Mobispins team is always here to help. Reach out anytime and we'll get back to you as soon as possible — because in this family, every player counts.</p>
             </div>
             
             <div class="contact-form-wrapper">
@@ -315,6 +315,31 @@
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/custom.js"></script>
+    
+    <!-- Scroll Animation Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Scroll animation function
+            function animateOnScroll() {
+                const elements = document.querySelectorAll('.scroll-animate, .contact-form-wrapper, .form-group, .submit-section');
+                
+                elements.forEach(element => {
+                    const elementTop = element.getBoundingClientRect().top;
+                    const elementVisible = 150;
+                    
+                    if (elementTop < window.innerHeight - elementVisible) {
+                        element.classList.add('animate');
+                    }
+                });
+            }
+            
+            // Run animation on scroll
+            window.addEventListener('scroll', animateOnScroll);
+            
+            // Run animation on page load
+            animateOnScroll();
+        });
+    </script>
 </body>
 
 </html>
